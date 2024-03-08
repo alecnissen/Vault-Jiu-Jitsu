@@ -6,6 +6,7 @@ import WhatIsJiuJitsu from "./WhatIsJiuJitsu"
 import CheckOurFacility from "./CheckOurFacility"
 import RecoveryRoom from "./RecoveryRoom"
 import ContactForm from "./ContactForm"
+import FooterContent from "./FooterContent"
 
 export default function App() {
 
@@ -19,6 +20,7 @@ export default function App() {
     <CheckOurFacility></CheckOurFacility>
     <RecoveryRoom></RecoveryRoom>
     <ContactForm></ContactForm>
+    <FooterContent></FooterContent>
 
     </>
   )
