@@ -23,9 +23,9 @@ export default function RecoveryRoom() {
       <div className="recovery-cards-container">
         <div className="recovery-card-group-1">
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={iceImg} className="cold-plunge-img"/>
+            <Card.Img variant="top" src={iceImg} className="cold-plunge-img card-img"/>
             <Card.Body>
-              <Card.Title>Cold Plunge</Card.Title>
+              <Card.Title className="recovery-card-header">Cold Plunge</Card.Title>
               <Card.Text>
                 A cold plunge, also known as cold water immersion, involves
                 submerging the body in cold water for a short duration,
@@ -37,14 +37,14 @@ export default function RecoveryRoom() {
                 refreshing way to invigorate the body and promote overall
                 well-being.
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
 
           <Card className="recovery-card-container">
             <Card.Img variant="top" src={saunaImg} className="card-img sauna-img" />
             <Card.Body>
-              <Card.Title>Sauna</Card.Title>
+              <Card.Title className="recovery-card-header">Sauna</Card.Title>
               <Card.Text>
                 A sauna is a heated room or small house designed for
                 experiencing dry or wet heat sessions, typically through steam
@@ -54,18 +54,18 @@ export default function RecoveryRoom() {
                 detoxifying the body through sweating, improving cardiovascular
                 health, and soothing sore muscles. Saunas have been used for
                 centuries in various cultures as a means of purifying the body
-                and rejuvenating the mind.
+                and rejduvenating the mind.
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
         </div>
 
         <div className="recovery-card-group-2">
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={redlightImg} />
+            <Card.Img variant="top" src={redlightImg} className="card-img" />
             <Card.Body>
-              <Card.Title>Red Light Therapy</Card.Title>
+              <Card.Title className="recovery-card-header">Red Light Therapy</Card.Title>
               <Card.Text>
                 Red light therapy, also known as photobiomodulation (PBM),
                 utilizes specific wavelengths of red and near-infrared light to
@@ -76,14 +76,14 @@ export default function RecoveryRoom() {
                 potential benefits in enhancing overall well-being and
                 addressing various health concerns.
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
 
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={saunaImg} />
+            <Card.Img variant="top" src={saunaImg} className="card-img" />
             <Card.Body>
-              <Card.Title>Normatech Compression Therapy</Card.Title>
+              <Card.Title className="recovery-card-header">Normatech Compression Therapy</Card.Title>
               <Card.Text>
                 NormaTec compression therapy utilizes dynamic pneumatic
                 compression to enhance circulation and promote recovery in the
@@ -94,7 +94,7 @@ export default function RecoveryRoom() {
                 individuals seeking to optimize their recovery process and
                 improve overall performance.
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
         </div>

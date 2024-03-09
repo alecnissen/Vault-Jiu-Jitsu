@@ -47,13 +47,29 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 24em;
+  width: 22em;
+  // padding: 1em;
+  // padding: 0.5em;
+  font-size: 1.2rem;
+}
+
+.recovery-card-header { 
+  font-size: 1.5rem;
+}
+
+.card-img { 
   padding: 1em;
 }
+
+.recovery-learn-more-btn { 
+  font-size: 1.2rem;
+}
+
 
 @media (max-width: 445px) { 
   .recovery-card-container { 
     width: 20em;
+    font-size: 1rem;
   }
 }
 
