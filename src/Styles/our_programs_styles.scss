@@ -16,7 +16,7 @@
 .programs-card-container { 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 1em;
 }
@@ -25,25 +25,40 @@
 .card-group-2 { 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 1em;
 }
 
 .card-container { 
     text-align: center;
-    width: 20em;
+    width: 22em;
     padding: 1em;
+    font-size: 1.2rem;
+    // box-shadow: 7px 5px 5px red;
 }
 
 .card-4-img { 
-    width: 17em;
+    width: 19em;
+}
+
+.programs-card-4-img-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .program-photo { 
     border-radius: 4%;
 }
 
+.programs-learn-more-btn { 
+    font-size: 1.2rem;
+}
+
+.program-card-header-text { 
+    font-size: 1.5rem;
+}
 // fixed height styles for program cards
 
 // .card-body { 
@@ -100,4 +115,22 @@
         transform: translateX(0);
     }
 
+}
+
+// @media (max-width: 445px) { 
+//     .recovery-card-container { 
+//       width: 20em;
+//       font-size: 1rem;
+//     }
+//   }
+
+@media (max-width: 445px) { 
+    .card-container { 
+        width: 20em;
+        font-size: 1rem;
+    }
+
+    .card-4-img { 
+        width: 18em;
+    }
 }

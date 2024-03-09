@@ -61,7 +61,7 @@ export default function OurPrograms() {
             </div>
 
             <Card.Body className="card-body">
-              <Card.Title>Adult Nogi</Card.Title>
+              <Card.Title className="program-card-header-text">Adult Nogi</Card.Title>
               <Card.Text>
                 NoGi Jiu Jitsu simply means no “Gi” or no traditional kimono
                 uniform. NoGi uniforms consist of a rashguard and board shorts,
@@ -69,7 +69,7 @@ export default function OurPrograms() {
                 use traditional Jiu Jitsu moves to sweep, submit, and pin your
                 opponent.
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
 
@@ -78,7 +78,7 @@ export default function OurPrograms() {
               <Card.Img variant="top" src={giPhoto} className="program-photo" />
             </div>
             <Card.Body className="card-body">
-              <Card.Title>Adult Gi</Card.Title>
+              <Card.Title className="program-card-header-text">Adult Gi</Card.Title>
               <Card.Text>
                 In Gi classes you will wear a traditional “Gi” or Jiu Jitsu
                 kimono. There are subtle differences in the gripping and
@@ -86,7 +86,7 @@ export default function OurPrograms() {
                 class to attend as it will make you a more complete Jiu-Jitsu
                 practioner!
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
         </div>
@@ -99,7 +99,7 @@ export default function OurPrograms() {
               className="program-photo"
             />
             <Card.Body className="card-body">
-              <Card.Title>Kids Classes</Card.Title>
+              <Card.Title className="program-card-header-text">Kids Classes</Card.Title>
               <Card.Text>
                 Our kids classes are broken into two separate age groups: ages
                 5-8 and ages 9-12. We will safely walk them through the
@@ -107,18 +107,22 @@ export default function OurPrograms() {
                 self-esteem, self-respect, patience and problem-solving skills
                 in kids in a fun way.
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
 
           <Card className="card-container">
+
+            <div className="programs-card-4-img-container">
             <Card.Img
               variant="top"
               src={womensBjjClassPhoto}
               className="program-photo card-4-img"
             />
+            </div>
+
             <Card.Body className="card-body">
-              <Card.Title>Women's Introductory Lessons</Card.Title>
+              <Card.Title className="program-card-header-text">Women's Introductory Lessons</Card.Title>
               <Card.Text>
                 Women can benefit from the many perks of the practice, including
                 weight loss, stress relief, self defense skills and body
@@ -126,7 +130,7 @@ export default function OurPrograms() {
                 you through the core techniques of Jiu-Jitsu and having lots of
                 fun while doing it!
               </Card.Text>
-              <Button variant="primary">Learn More</Button>
+              <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
             </Card.Body>
           </Card>
         </div>
