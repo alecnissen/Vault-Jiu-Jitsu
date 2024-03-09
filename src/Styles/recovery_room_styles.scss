@@ -26,13 +26,14 @@
 .recovery-cards-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  // align-items: center;
+  align-items: stretch;
   gap: 1em;
   flex-wrap: wrap;
 }
 
-.card-group-1,
-.card-group-2 {
+.recovery-card-group-1,
+.recovery-card-group-2 {
   display: flex;
   justify-content: center;
   // align-items: center;
@@ -41,13 +42,19 @@
   flex-wrap: wrap;
 }
 
-.card-container {
+.recovery-card-container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-//   width: 26em;
+  width: 24em;
   padding: 1em;
+}
+
+@media (max-width: 445px) { 
+  .recovery-card-container { 
+    width: 20em;
+  }
 }
 
 // .card-container .card-img { 

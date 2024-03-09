@@ -4,6 +4,9 @@ import Card from "react-bootstrap/Card";
 // import coldPlungeImg from "../assets/20230424-EA0A3551_edited.webp";
 import coldPlungeImg from "../assets/vault-cold-plunge-img.webp";
 import saunaImg from "../assets/vault-sauna-img.jpg";
+import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
+import redlightImg from "../assets/pexels-johannes-plenio-1996035.jpg"
+
 
 export default function RecoveryRoom() {
   return (
@@ -18,9 +21,9 @@ export default function RecoveryRoom() {
       </p>
 
       <div className="recovery-cards-container">
-        <div className="card-group-1">
-          <Card className="card-container">
-            <Card.Img variant="top" src={coldPlungeImg} className="cold-plunge-img"/>
+        <div className="recovery-card-group-1">
+          <Card className="recovery-card-container">
+            <Card.Img variant="top" src={iceImg} className="cold-plunge-img"/>
             <Card.Body>
               <Card.Title>Cold Plunge</Card.Title>
               <Card.Text>
@@ -38,7 +41,7 @@ export default function RecoveryRoom() {
             </Card.Body>
           </Card>
 
-          <Card className="card-container">
+          <Card className="recovery-card-container">
             <Card.Img variant="top" src={saunaImg} className="card-img sauna-img" />
             <Card.Body>
               <Card.Title>Sauna</Card.Title>
@@ -58,9 +61,9 @@ export default function RecoveryRoom() {
           </Card>
         </div>
 
-        <div className="card-group-2">
-          <Card className="card-container">
-            <Card.Img variant="top" src="holder.js/100px180" />
+        <div className="recovery-card-group-2">
+          <Card className="recovery-card-container">
+            <Card.Img variant="top" src={redlightImg} />
             <Card.Body>
               <Card.Title>Red Light Therapy</Card.Title>
               <Card.Text>
@@ -77,8 +80,8 @@ export default function RecoveryRoom() {
             </Card.Body>
           </Card>
 
-          <Card className="card-container">
-            <Card.Img variant="top" src="holder.js/100px180" />
+          <Card className="recovery-card-container">
+            <Card.Img variant="top" src={saunaImg} />
             <Card.Body>
               <Card.Title>Normatech Compression Therapy</Card.Title>
               <Card.Text>
