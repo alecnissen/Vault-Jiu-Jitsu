@@ -2,9 +2,11 @@ import React from "react";
 import vaultBjjLogo from "../assets/logo.png";
 import instaLogo from "../assets/ig-image-transparent.png";
 import fbLogo from "../assets/fb-image-transparent.png";
+import Trademark from "./Trademark";
 
 export default function FooterContent() {
   return (
+    <>
     <div className="footer-content-wrapper">
 
     <div className="address-subscribe-container">
@@ -37,7 +39,8 @@ export default function FooterContent() {
 
 
 
-
     </div>
+    <Trademark></Trademark>
+    </>
   );
 }

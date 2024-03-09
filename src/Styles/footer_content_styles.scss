@@ -81,5 +81,43 @@
 // }
 
 .footer-vault-logo { 
-    width: 45em;
+    width: 40em;
+} 
+
+
+
+@media (max-width: 975px) { 
+    .footer-vault-logo { 
+        width: 28em;
+    } 
+}
+
+@media (max-width: 760px) { 
+    .footer-content-wrapper { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    } 
+
+    .footer-vault-logo-container { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -7em;
+    } 
+
+    .footer-label-input-pair-email { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-social-links-container { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
