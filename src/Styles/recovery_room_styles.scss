@@ -11,17 +11,17 @@
   padding: 1em;
 }
 
-.recovery-room-text {
+ .recovery-room-text {
   text-align: center;
   font-size: 1.5rem;
-  padding: 2em;
+  padding: 0.5em;
 }
 
-.recovery-room-content-wrapper p {
-  text-align: center;
-  // font-size: 1.5rem;
-  padding: 1em;
-}
+// .recovery-room-content-wrapper p {
+//   text-align: center;
+//   font-size: 1.5rem;
+//   padding: 0.5em;
+// }
 
 .recovery-cards-container {
   display: flex;
@@ -63,6 +63,12 @@
 
 .recovery-learn-more-btn { 
   font-size: 1.2rem;
+}
+
+@media (max-width: 490px) { 
+  .recovery-room-content-wrapper p { 
+    font-size: 1.2rem;
+  }
 }
 
 

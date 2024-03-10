@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1em;
 }
 
 
@@ -30,12 +31,17 @@
     padding: 2em;
 }
 
+.what-is-bjj-content-wrapper ul { 
+    font-size: 1.5rem;
+}
+
 @media (max-width: 660px) { 
     .what-is-bjj-content-wrapper img { 
         width: 28em;
     }
 
-    .what-is-bjj-content-wrapper p { 
+    .what-is-bjj-content-wrapper p,
+    .what-is-bjj-content-wrapper ul { 
         font-size: 1.2rem;
     }
 }
@@ -45,7 +51,8 @@
         width: 20em;
     }
 
-    .what-is-bjj-content-wrapper p { 
-        font-size: 1rem;
+    .what-is-bjj-content-wrapper p,
+    .what-is-bjj-content-wrapper ul { 
+        font-size: 1.2rem;
     }
 }
