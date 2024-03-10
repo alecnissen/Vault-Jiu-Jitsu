@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.about-us-component-content-wrapper { 
+    display: flex;
+    // justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+
+}
+
+.about-us-component-header-text { 
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: .5em;
+}
+
+.about-us-component-header-container { 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vault-family-img-styles { 
+    width: 30em;
+    // height: 40em;
+    border-radius: 5%;
+    // max-width: 100%; /* Ensures the image never exceeds its original size */
+    height: auto; /* Maintains the aspect ratio */
+    // padding: 2em;
+}
+
+.our-story-description-text { 
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 515px) { 
+
+    .vault-family-img-styles { 
+    width: 23em;
+} 
+}

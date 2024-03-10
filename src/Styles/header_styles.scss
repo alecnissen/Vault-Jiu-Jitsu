@@ -21,6 +21,14 @@
     // gap: 4em;
 }
 
+.header-link-button { 
+    text-decoration: none;
+    color: white;
+}
+
+.header-link-button:hover { 
+    color: black;
+}
 
 .header-btn-container button { 
     // display: flex;
@@ -33,6 +41,7 @@
     // padding: 0.3em;
     // border-radius: 12%;
     border: none;
+    text-decoration: none;
     background-color: black;
     color: white;
     cursor: pointer;

@@ -2,6 +2,8 @@ import React from "react";
 import vaultBjjLogo from "../assets/logo.png";
 import instaLogo from "../assets/ig-image-transparent.png";
 import fbLogo from "../assets/fb-image-transparent.png";
+import { Link, Outlet, useSearchParams } from 'react-router-dom';
+
 
 export default function Header() {
   return (
@@ -9,8 +11,13 @@ export default function Header() {
       <img src={vaultBjjLogo} className="header-vault-bjj-logo"></img>
 
       <div className="header-btn-container">
-        <button>Home</button>
-        <button>About</button>
+
+        <button>
+        <Link to="/" className="header-link-button">Home</Link>
+        </button>
+        <button>
+          <Link to="/AboutUsComponent" className="header-link-button">About</Link>
+        </button>
         <button>Schedule</button>
         <button>Instructors</button>
         <button>Programs</button>
