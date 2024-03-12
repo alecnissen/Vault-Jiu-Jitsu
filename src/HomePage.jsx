@@ -9,10 +9,10 @@ import RecoveryRoom from './RecoveryRoom'
 import ContactForm from './ContactForm'
 import FooterContent from './FooterContent'
 
-export default function HomePage() {
+export default function HomePage({ btnAnimationPlayed, instaFbAnimationPlayed }) {
   return (
     <div>
-    <Header></Header>
+    <Header btnAnimationPlayed={btnAnimationPlayed} instaFbAnimationPlayed={instaFbAnimationPlayed}></Header>
     <TitleAndImgComponent></TitleAndImgComponent>
     <AboutUsHomepage></AboutUsHomepage>
     <WhatIsJiuJitsu></WhatIsJiuJitsu>

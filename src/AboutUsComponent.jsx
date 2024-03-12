@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from './Header'
 import vaultFamilyImg from "../assets/vault-bjj-family-portriat.jpg"
+import Header2 from './Header2'
 
-export default function AboutUsComponent() {
+export default function AboutUsComponent( ) {
   return (
     <> 
-    <Header></Header>
+       <Header2></Header2>
       <h1 className='about-us-component-header-text'>Our Story</h1>
     <div className='about-us-component-content-wrapper'>
 
