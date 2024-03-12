@@ -11,16 +11,25 @@ export default function Header2() {
   
         <div className="header-btn-container2">
   
-          <button>
-          <Link to="/" className="header-link-button">Home</Link>
-          </button>
-          <button>
-            <Link to="/AboutUsComponent" className="header-link-button">About</Link>
-          </button>
-          <button>Schedule</button>
-          <button>Instructors</button>
-          <button>Programs</button>
-          <button>Contact/FAQ</button>
+        <button>
+        <Link to="/" className="header-link">Home</Link>
+        </button>
+        <button>
+          <Link to="/AboutUsComponent" className="header-link">About</Link>
+        </button>
+        <button>
+        <Link to="" className="header-link">Schedule</Link>
+        </button>
+        <button>
+          <Link to="" className="header-link">Instructors</Link>
+        </button>
+        <button>
+        <Link to="" className="header-link">Programs</Link>
+        </button>
+        <button>
+          <Link to="" className="header-link">Contact/FAQ</Link>
+        </button>
+
         </div>
   
         <div className="header-insta-fb-links-container2">
@@ -31,4 +40,4 @@ export default function Header2() {
     );
   }
 
-  
+

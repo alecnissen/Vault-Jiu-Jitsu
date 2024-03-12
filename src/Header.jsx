@@ -15,15 +15,23 @@ export default function Header() {
       <div className="header-btn-container">
 
         <button>
-        <Link to="/" className="header-link-button">Home</Link>
+        <Link to="/" className="header-link">Home</Link>
         </button>
         <button>
-          <Link to="/AboutUsComponent" className="header-link-button">About</Link>
+          <Link to="/AboutUsComponent" className="header-link">About</Link>
         </button>
-        <button>Schedule</button>
-        <button>Instructors</button>
-        <button>Programs</button>
-        <button>Contact/FAQ</button>
+        <button>
+        <Link to="" className="header-link">Schedule</Link>
+        </button>
+        <button>
+          <Link to="" className="header-link">Instructors</Link>
+        </button>
+        <button>
+        <Link to="" className="header-link">Programs</Link>
+        </button>
+        <button>
+          <Link to="" className="header-link">Contact/FAQ</Link>
+        </button>
       </div>
 
       <div className="header-insta-fb-links-container">

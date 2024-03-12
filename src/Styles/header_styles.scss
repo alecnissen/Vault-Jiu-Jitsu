@@ -21,16 +21,18 @@
     // gap: 4em;
 }
 
-.header-link-button { 
+.header-link { 
     text-decoration: none;
     color: white;
+    background-color: black;
+    // color: inherit;
 }
 
-.header-link-button:hover { 
+.header-link:hover { 
     color: black;
-    //     background-color: white;
-    // color: black;
-    // border-radius: 5%;
+    background-color: white;
+    border-radius: 5%;
+   
 }
 
 .header-btn-container button { 
@@ -61,11 +63,12 @@
 
 
 
-.header-btn-container button:hover { 
-    background-color: white;
-    color: black;
-    border-radius: 5%;
-}
+
+// .header-btn-container button:hover { 
+//     background-color: white;
+//     color: black;
+//     border-radius: 5%;
+// }
 
 .header-vault-bjj-logo { 
     width: 12em;
