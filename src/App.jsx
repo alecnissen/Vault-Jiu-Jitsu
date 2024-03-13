@@ -13,6 +13,7 @@ import AboutUsComponent from "./AboutUsComponent"
 import { useState, useEffect } from "react"
 import Schedule from "./Schedule"
 import Instructors from "./Instructors"
+import ProgramsComponent from "./ProgramsComponent"
 
 export default function App() {
 
@@ -91,7 +92,8 @@ export default function App() {
     <Route path="/AboutUsComponent" element={<AboutUsComponent></AboutUsComponent>}></Route>
     <Route path="/Schedule" element={<Schedule></Schedule>}></Route>
     <Route path="/Instructors" element={<Instructors></Instructors>}></Route>
-    
+    <Route path="/ProgramsComponent" element={<ProgramsComponent></ProgramsComponent>}></Route>
+
     </Routes>
 
     </>

@@ -1,0 +1,40 @@
+.header-text-programs-component { 
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 0.5em;
+
+}
+
+.programs-component-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.program-content-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1em;
+}
+
+.program-content-container h1 { 
+    font-weight: bold;
+}
+
+.program-content-container img { 
+    width: 28em;
+    border-radius: 5%;
+    padding-bottom: .5em;
+}
+
+
+

@@ -27,7 +27,7 @@ export default function Header() {
           <Link to="/Instructors" className="header-link">Instructors</Link>
         </button>
         <button>
-        <Link to="" className="header-link">Programs</Link>
+        <Link to="/ProgramsComponent" className="header-link">Programs</Link>
         </button>
         <button>
           <Link to="" className="header-link">Contact/FAQ</Link>
