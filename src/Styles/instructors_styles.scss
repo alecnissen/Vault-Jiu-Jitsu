@@ -14,6 +14,7 @@
     font-weight: bold;
     font-style: normal;
     padding: 0.5em;
+    font-size: 3rem;
 }
 
 .instructors-content-wrapper h3 { 
@@ -25,18 +26,18 @@
     padding: 0.5em;
 }
 
-.coach-julian-container { 
+.coach-container { 
     display: flex;
     padding: 3em;
     font-family: "Bebas Neue", sans-serif;
 }
 
-.coach-julian-container img { 
+.coach-container img { 
     width: 25em;
     border-radius: 5%;
 }
 
-.coach-julian-container p { 
+.coach-container p { 
     font-size: 1.2rem;
     text-align: center;
     // padding: 2em;
@@ -72,7 +73,7 @@
 }
 
 @media (max-width: 1213px) { 
-    .coach-julian-container { 
+    .coach-container { 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -81,7 +82,7 @@
 }
 
 @media (max-width: 450px) { 
-    .coach-julian-container img { 
+    .coach-container img { 
         width: 20em;
     }
 }
