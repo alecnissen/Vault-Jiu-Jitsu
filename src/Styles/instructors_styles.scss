@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+.instructors-content-wrapper  { 
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // padding: 1em;
+}
+
+.our-instructors-header-text { 
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    padding: 0.5em;
+}
+
+.instructors-content-wrapper h3 { 
+    font-family: "Bebas Neue", sans-serif;
+    // font-weight: bold;
+    font-style: normal;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.coach-julian-container { 
+    display: flex;
+    padding: 3em;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.coach-julian-container img { 
+    width: 25em;
+    border-radius: 5%;
+}
+
+.coach-julian-container p { 
+    font-size: 1.2rem;
+    text-align: center;
+    // padding: 2em;
+}
+
+.bio-description-container h1 { 
+    font-size: 3rem;
+    padding: 0.2em;
+}
+
+.accolades-list-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+// .coach-julian-container ul { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+
+// }
+
+.bio-description-container h1 { 
+    font-weight: bold;
+}
+
+.bio-description-container { 
+    text-align: center;
+}
+
+@media (max-width: 1213px) { 
+    .coach-julian-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) { 
+    .coach-julian-container img { 
+        width: 20em;
+    }
+}

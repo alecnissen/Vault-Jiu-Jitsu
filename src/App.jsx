@@ -12,6 +12,7 @@ import { Route, Routes } from 'react-router-dom';
 import AboutUsComponent from "./AboutUsComponent"
 import { useState, useEffect } from "react"
 import Schedule from "./Schedule"
+import Instructors from "./Instructors"
 
 export default function App() {
 
@@ -89,7 +90,7 @@ export default function App() {
     
     <Route path="/AboutUsComponent" element={<AboutUsComponent></AboutUsComponent>}></Route>
     <Route path="/Schedule" element={<Schedule></Schedule>}></Route>
-    
+    <Route path="/Instructors" element={<Instructors></Instructors>}></Route>
     
     </Routes>
 
