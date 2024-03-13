@@ -11,6 +11,7 @@ import HomePage from "./HomePage"
 import { Route, Routes } from 'react-router-dom';
 import AboutUsComponent from "./AboutUsComponent"
 import { useState, useEffect } from "react"
+import Schedule from "./Schedule"
 
 export default function App() {
 
@@ -87,6 +88,7 @@ export default function App() {
     {/* <HomePage></HomePage> */}
     
     <Route path="/AboutUsComponent" element={<AboutUsComponent></AboutUsComponent>}></Route>
+    <Route path="/Schedule" element={<Schedule></Schedule>}></Route>
     
     
     </Routes>

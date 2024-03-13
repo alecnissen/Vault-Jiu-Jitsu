@@ -18,7 +18,7 @@ export default function Header2() {
           <Link to="/AboutUsComponent" className="header-link">About</Link>
         </button>
         <button>
-        <Link to="" className="header-link">Schedule</Link>
+        <Link to="/Schedule" className="header-link">Schedule</Link>
         </button>
         <button>
           <Link to="" className="header-link">Instructors</Link>
