@@ -19,3 +19,9 @@
 // see you can make the text for the program cards the same length, 
 
 // if not implement there design and style from the site. 
+
+// *** 
+
+// stop and implememt the suggestions, before moving forward
+
+// first fix the icons 
