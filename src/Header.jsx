@@ -1,10 +1,14 @@
 import React from "react";
 import vaultBjjLogo from "../assets/logo.png";
-import instaLogo from "../assets/ig-image-transparent.png";
-import fbLogo from "../assets/fb-image-transparent.png";
+// import instaLogo from "../assets/ig-image-transparent.png";
+import instaLogo from "../assets/instagram-svgrepo-com.svg"
+// import fbLogo from "../assets/fb-image-transparent.png";
+// import fbLogo from "../assets/facebook-svgrepo-com.svg"
+import fbLogo from "../assets/facebook-svgrepo-com.svg"
 import { Link, Outlet, useSearchParams } from 'react-router-dom';
 import { useState, useEffect } from "react";
-
+import coloredFbLogo from "../assets/colored-fb-logo.svg"
+import coloredInstLogo from "../assets/colored-insta-logo.svg"
 
 
 export default function Header() {
@@ -35,8 +39,8 @@ export default function Header() {
       </div>
 
       <div className="header-insta-fb-links-container">
-        <img src={instaLogo}></img>
-        <img src={fbLogo}></img>
+        <img src={instaLogo} className="insta-logo-header"></img>
+        <img src={fbLogo} className='fb-logo-header'></img>
       </div>
     </div>
   );

@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .what-is-bjj-content-wrapper { 
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    // font-family: "Bebas Neue", sans-serif;
+    // font-weight: 400;
+    // font-style: normal;
     // padding: 3em;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,8 @@
 }
 
 
-.what-is-bjj-content-wrapper h1{ 
+.what-is-bjj-content-wrapper h1 { 
+    font-family: "Bebas Neue", sans-serif;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
@@ -29,10 +30,21 @@
     text-align: center;
     font-size: 1.5rem;
     padding: 2em;
+    max-width: 40em; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the text horizontally */
+    color: silver;
 }
 
 .what-is-bjj-content-wrapper ul { 
     font-size: 1.5rem;
+    color: silver;
+}
+
+@media (max-width: 1030px) { 
+    .what-is-bjj-content-wrapper p,
+    .what-is-bjj-content-wrapper ul { 
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 660px) { 
@@ -40,10 +52,10 @@
         width: 28em;
     }
 
-    .what-is-bjj-content-wrapper p,
-    .what-is-bjj-content-wrapper ul { 
-        font-size: 1.2rem;
-    }
+    // .what-is-bjj-content-wrapper p,
+    // .what-is-bjj-content-wrapper ul { 
+    //     font-size: 1.2rem;
+    // }
 }
 
 @media (max-width: 490px) { 
@@ -51,8 +63,8 @@
         width: 20em;
     }
 
-    .what-is-bjj-content-wrapper p,
-    .what-is-bjj-content-wrapper ul { 
-        font-size: 1.2rem;
-    }
+    // .what-is-bjj-content-wrapper p,
+    // .what-is-bjj-content-wrapper ul { 
+    //     font-size: 1.2rem;
+    // }
 }

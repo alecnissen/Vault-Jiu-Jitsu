@@ -3,9 +3,13 @@
 
 
 .about-us-content-wrapper { 
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    // font-family: "Bebas Neue", sans-serif;
+    // font-weight: 400;
+    // font-style: normal;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
     padding: 3em;
 }
 
@@ -23,18 +27,27 @@
     text-align: center;
     // padding: 1em;
     font-size: 1.5rem;
+    max-width: 40em; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the text horizontally */
+    color: silver;
+}
+
+@media (max-width: 1030px) { 
+    .about-us-content-wrapper p { 
+        font-size: 1.1rem;
+    }
 }
 
 
 @media (max-width: 660px) { 
     .about-us-content-wrapper p { 
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 490px) { 
     .about-us-content-wrapper p { 
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
