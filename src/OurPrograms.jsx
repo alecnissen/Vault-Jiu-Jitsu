@@ -61,7 +61,7 @@ export default function OurPrograms() {
             </div>
 
             <Card.Body className="card-body">
-              <Card.Title className="program-card-header-text">Adult Nogi</Card.Title>
+              <Card.Title className="program-card-header-text">Adult NOGI</Card.Title>
               <Card.Text>
                 NoGi Jiu Jitsu simply means no “Gi” or no traditional kimono
                 uniform. NoGi uniforms consist of a rashguard and board shorts,
@@ -105,7 +105,7 @@ export default function OurPrograms() {
                 5-8 and ages 9-12. We will safely walk them through the
                 fundamentals of Jiu-Jitsu. It’s a great way to naturally build
                 self-esteem, self-respect, patience and problem-solving skills
-                in kids in a fun way.
+                in kids.
               </Card.Text>
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
             </Card.Body>
@@ -122,7 +122,7 @@ export default function OurPrograms() {
             </div>
 
             <Card.Body className="card-body">
-              <Card.Title className="program-card-header-text">Women's Introductory Lessons</Card.Title>
+              <Card.Title className="program-card-header-text">Women's Classes</Card.Title>
               <Card.Text>
                 Women can benefit from the many perks of the practice, including
                 weight loss, stress relief, self defense skills and body

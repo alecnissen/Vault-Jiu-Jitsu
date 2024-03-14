@@ -27,6 +27,7 @@
     text-align: center;
     // padding: 1em;
     font-size: 1.5rem;
+    font-family: sans-serif;
     max-width: 40em; /* Adjust the value as needed */
     margin: 0 auto; /* Center the text horizontally */
     color: silver;
@@ -34,7 +35,7 @@
 
 @media (max-width: 1030px) { 
     .about-us-content-wrapper p { 
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 

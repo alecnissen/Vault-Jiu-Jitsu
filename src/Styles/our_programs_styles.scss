@@ -28,6 +28,7 @@
     align-items: stretch;
     flex-wrap: wrap;
     gap: 1em;
+    font-family: sans-serif;
 }
 
 .card-container { 
@@ -35,6 +36,7 @@
     width: 22em;
     padding: 1em;
     font-size: 1.2rem;
+    background-color: silver;
     // box-shadow: 7px 5px 5px red;
 }
 
@@ -53,7 +55,7 @@
 }
 
 .programs-learn-more-btn { 
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .program-card-header-text { 
@@ -124,10 +126,16 @@
 //     }
 //   }
 
+@media (max-width: 1030px) { 
+    .card-container { 
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 445px) { 
     .card-container { 
         width: 17em;
-        font-size: 1.2rem;
+        // font-size: 1.2rem;
     }
 
     .card-4-img { 
