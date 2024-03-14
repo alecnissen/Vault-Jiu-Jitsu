@@ -61,6 +61,13 @@
 .program-card-header-text { 
     font-size: 1.5rem;
 }
+
+.card-body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 // fixed height styles for program cards
 
 // .card-body { 

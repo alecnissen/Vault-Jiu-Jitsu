@@ -105,7 +105,7 @@ export default function OurPrograms() {
                 5-8 and ages 9-12. We will safely walk them through the
                 fundamentals of Jiu-Jitsu. It’s a great way to naturally build
                 self-esteem, self-respect, patience and problem-solving skills
-                in kids.
+                in kids in a very fun way.
               </Card.Text>
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
             </Card.Body>

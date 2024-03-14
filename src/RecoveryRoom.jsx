@@ -5,8 +5,7 @@ import Card from "react-bootstrap/Card";
 import coldPlungeImg from "../assets/vault-cold-plunge-img.webp";
 import saunaImg from "../assets/vault-sauna-img.jpg";
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
-import redlightImg from "../assets/pexels-johannes-plenio-1996035.jpg"
-
+import redlightImg from "../assets/pexels-johannes-plenio-1996035.jpg";
 
 export default function RecoveryRoom() {
   return (
@@ -23,40 +22,53 @@ export default function RecoveryRoom() {
       <div className="recovery-cards-container">
         <div className="recovery-card-group-1">
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={iceImg} className="cold-plunge-img card-img"/>
-            <Card.Body>
-              <Card.Title className="recovery-card-header">Cold Plunge</Card.Title>
+            <Card.Img
+              variant="top"
+              src={iceImg}
+              className="cold-plunge-img card-img"
+            />
+            <Card.Body className="recovery-card-body">
+              <Card.Title className="recovery-card-header">
+                Cold Plunge
+              </Card.Title>
               <Card.Text>
-                A cold plunge, also known as cold water immersion, involves
-                submerging the body in cold water for a short duration,
-                typically in a cold pool or icy bath. This practice is believed
-                to offer numerous health benefits, including reducing
-                inflammation, boosting circulation, improving muscle recovery,
-                enhancing mood, and strengthening the immune system. Cold
-                plunges are often favored by athletes and individuals seeking a
-                refreshing way to invigorate the body and promote overall
-                well-being.
+                A cold plunge, often referred to as cold water immersion,
+                entails immersing oneself in cold water for a brief period,
+                typically in a cold pool or icy bath. Advocates believe it
+                provides various health advantages, such as diminishing
+                inflammation, enhancing circulation, expediting muscle recovery,
+                elevating mood, and fortifying the immune system. Embraced by
+                athletes and wellness enthusiasts alike, cold plunges offer a
+                revitalizing approach to rejuvenate the body and foster holistic
+                health.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
 
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={saunaImg} className="card-img sauna-img" />
-            <Card.Body>
+            <Card.Img
+              variant="top"
+              src={saunaImg}
+              className="card-img sauna-img"
+            />
+            <Card.Body className="recovery-card-body">
               <Card.Title className="recovery-card-header">Sauna</Card.Title>
               <Card.Text>
-                A sauna is a heated room or small house designed for
-                experiencing dry or wet heat sessions, typically through steam
-                or infrared technology. The practice of using a sauna is known
-                as "sauna bathing" and is renowned for its potential health
-                benefits, including promoting relaxation, relieving stress,
-                detoxifying the body through sweating, improving cardiovascular
-                health, and soothing sore muscles. Saunas have been used for
-                centuries in various cultures as a means of purifying the body
-                and rejduvenating the mind.
+                A sauna is a small room or space designed to produce heat and
+                induce sweating through the use of dry or wet heat. This heat
+                therapy is believed to offer numerous health benefits, including
+                relaxation, stress relief, improved circulation, detoxification,
+                and potentially even enhanced athletic performance. Saunas are
+                popular worldwide and are often enjoyed as a way to unwind,
+                promote overall well-being, and rejuvenate both the body and
+                mind.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
         </div>
@@ -64,8 +76,10 @@ export default function RecoveryRoom() {
         <div className="recovery-card-group-2">
           <Card className="recovery-card-container">
             <Card.Img variant="top" src={redlightImg} className="card-img" />
-            <Card.Body>
-              <Card.Title className="recovery-card-header">Red Light Therapy</Card.Title>
+            <Card.Body className="recovery-card-body">
+              <Card.Title className="recovery-card-header">
+                Red Light Therapy
+              </Card.Title>
               <Card.Text>
                 Red light therapy, also known as photobiomodulation (PBM),
                 utilizes specific wavelengths of red and near-infrared light to
@@ -76,14 +90,18 @@ export default function RecoveryRoom() {
                 potential benefits in enhancing overall well-being and
                 addressing various health concerns.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
 
           <Card className="recovery-card-container">
             <Card.Img variant="top" src={saunaImg} className="card-img" />
-            <Card.Body>
-              <Card.Title className="recovery-card-header">Normatech Compression Therapy</Card.Title>
+            <Card.Body className="recovery-card-body">
+              <Card.Title className="recovery-card-header">
+                Normatech Compression Therapy
+              </Card.Title>
               <Card.Text>
                 NormaTec compression therapy utilizes dynamic pneumatic
                 compression to enhance circulation and promote recovery in the
@@ -94,7 +112,9 @@ export default function RecoveryRoom() {
                 individuals seeking to optimize their recovery process and
                 improve overall performance.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              <Button variant="primary" className="recovery-learn-more-btn">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
         </div>
