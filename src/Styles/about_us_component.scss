@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+// take away flex properties
 
 .about-us-component-content-wrapper { 
     display: flex;
-    // justify-content: space-between;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 2em;
+    // justify-content: space-between;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    // padding: 2em;
 
 }
 
@@ -26,7 +29,10 @@
 }
 
 .vault-family-img-styles { 
-    width: 30em;
+    margin-left: 3em;
+    width: 35em;
+    // max-width: 100%;
+    // margin-right: 2em;
     // height: 40em;
     border-radius: 5%;
     // max-width: 100%; /* Ensures the image never exceeds its original size */
@@ -35,15 +41,63 @@
 }
 
 .our-story-description-text { 
-    font-family: "Bebas Neue", sans-serif;
+    // font-family: "Bebas Neue", sans-serif;
+    font-family: sans-serif;
+    color: silver;
     text-align: center;
-    padding: 1em;
+    // padding: 1em;
+    flex: 1;
     font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 40em;
 }
 
-@media (max-width: 515px) { 
 
+
+
+@media (max-width: 1420px) {
+    .about-us-component-content-wrapper {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      text-align: center;
+    }
+  
+    .vault-family-img-styles {
+    //   width: 35em;
+      margin-left: 0em;
+      margin-bottom: 1em; /* Add margin at the bottom to separate the image from the text */
+    }
+  }
+
+  @media (max-width: 720px) { 
     .vault-family-img-styles { 
-    width: 23em;
-} 
-}
+        width: 25em;
+    }
+
+    .our-story-description-text { 
+        font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) { 
+    .vault-family-img-styles { 
+        width: 20em;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+// @media (max-width: 515px) { 
+
+//     .vault-family-img-styles { 
+//     width: 23em;
+// } 
+// }
