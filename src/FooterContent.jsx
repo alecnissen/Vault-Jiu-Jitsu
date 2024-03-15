@@ -19,9 +19,9 @@ export default function FooterContent() {
     
     <div className="title-address-phone-container">
       <h1>The Vault Jiu-Jitsu</h1>
-      <h3>25 South Morton Ave Morton, PA 19070 US</h3>
-      <h3>info@vaultbjj.com</h3>
-      <h3>610-579-0077</h3>
+      <h3 className="footer-address-styles">25 South Morton Ave Morton, PA 19070 US</h3>
+      <h3 className="footer-email-styles">info@vaultbjj.com</h3>
+      <h3 className="footer-phone-styles">610-579-0077</h3>
 
     <div className="footer-social-links-container"> 
         <img src={instaLogo}></img>

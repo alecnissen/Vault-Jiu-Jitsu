@@ -18,7 +18,11 @@
     // padding: 1em;
 }
 
-.title-address-phone-container > * { 
+// .title-address-phone-container > * { 
+//     font-size: 3rem;
+// }
+
+.title-address-phone-container h1 { 
     font-size: 3rem;
 }
 
@@ -34,22 +38,37 @@
     gap: 0.3em;
 }
 
+.footer-email-styles,
+.footer-phone-styles { 
+    color: silver;
+    font-family: sans-serif;
+}
+
 .footer-social-links-container img { 
-    width: 1em;
+    width: 3em;
+}
+
+.footer-address-styles { 
+    font-family: sans-serif;
+    color: silver;
 }
 
 .footer-label-input-pair-email h5 { 
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: silver;
+    font-family: sans-serif;
 }
 
 .footer-label-input-pair-email { 
     display: flex;
     flex-direction: column;
     gap: .5em;
+    color: silver;
+    font-family: sans-serif;
 }
 
 .footer-label-input-pair-email label { 
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .footer-label-input-pair-email input { 
@@ -58,7 +77,7 @@
 }
 
 .footer-label-input-pair-email button { 
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 5em;
     background-color: red;
     color: white;
@@ -85,6 +104,22 @@
     width: 40em;
 } 
 
+@media (max-width: 1030px) { 
+    .footer-email-styles,
+.footer-phone-styles { 
+    font-size: 1.3rem;
+} 
+
+.footer-label-input-pair-email h5,
+.footer-label-input-pair-email label { 
+    font-size: 1.5rem;
+    color: silver;
+    font-family: sans-serif;
+}
+
+
+
+}
 
 
 @media (max-width: 975px) { 
@@ -93,11 +128,11 @@
     } 
 }
 
-@media (max-width: 490px) { 
-    .title-address-phone-container > * { 
-        font-size: 2.3rem;
-    }
-}
+// @media (max-width: 490px) { 
+//     .title-address-phone-container > * { 
+//         font-size: 2.3rem;
+//     }
+// }
 
 @media (max-width: 760px) { 
     .footer-content-wrapper { 
@@ -126,5 +161,9 @@
         justify-content: center;
         align-items: center;
     }
+
+    .footer-vault-logo { 
+        width: 22em;
+    }  
 
 }

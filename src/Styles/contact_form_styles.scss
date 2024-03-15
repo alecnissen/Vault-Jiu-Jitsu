@@ -16,17 +16,22 @@
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .contact-form-title-subtitle-container h3 { 
     font-size: 2rem;
     font-weight: bold;
+    padding: 0.5em;
 }
 
 .contact-form-title-subtitle-container p { 
     text-align: center;
     font-size: 1.5rem;
+    font-family: sans-serif;
+    color: silver;
+    max-width: 40em; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the text horizontally */
 }
 
 .contact-form-input-container { 
@@ -62,10 +67,17 @@
 
 
 .contact-form-input-container button { 
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: red;
     padding: .3em;
     color: white;
+    font-family: sans-serif;
+}
+
+@media (max-width: 1030px) { 
+    .contact-form-title-subtitle-container p { 
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 660px) { 
@@ -79,7 +91,7 @@
 @media (max-width: 490px) { 
     .contact-form-title-subtitle-container p { 
         text-align: center;
-        font-size: 1.2rem;
+        // font-size: 1.2rem;
     }
 }
 
