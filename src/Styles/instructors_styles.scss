@@ -71,6 +71,8 @@
     align-items: center;
     font-size: 1.2rem;
     text-align: left;
+    color: white;
+    font-weight: bold;
 }
 
 // .coach-julian-container ul { 
@@ -96,7 +98,37 @@
         justify-content: center;
         align-items: center;
     }
+
+    .instructors-content-wrapper h3 { 
+        max-width: 30em;
+        margin: 0 auto;
+    }
 }
+
+
+@media (max-width: 1020px) { 
+    .instructors-content-wrapper h3 { 
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 760px) { 
+    .coach-container p,
+    .accolades-list-container,
+    .instructors-content-wrapper h3 { 
+        font-size: 1rem
+    } 
+
+    .bio-description-container h1 { 
+        font-size: 2rem;
+    }
+
+    // .instructors-content-wrapper h3 { 
+    //     max-width: 35em;
+    //     margin: 0 auto;
+    // }
+}
+
 
 @media (max-width: 450px) { 
     .coach-container img { 
