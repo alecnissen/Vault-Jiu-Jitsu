@@ -112,7 +112,7 @@ export default function Schedule() {
 
     <div className='class-title-and-time-container'>
         <div>Open Mat</div>
-        <div>10:00 - 11:30am</div>
+        <div>10:00am - 11:30am</div>
     </div>
 
     </div>

@@ -1,42 +1,81 @@
-.header-text-programs-component { 
+.programs-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+}
+
+.our-programs-header-text { 
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-style: normal;
     padding: 0.5em;
-
+    font-size: 3rem;
 }
 
-.programs-component-content-wrapper { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-}
-
-.program-content-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Bebas Neue", sans-serif;
-    text-align: center;
+.programs-content-wrapper h3 { 
+    font-family: sans-serif;
+    color: silver;
+    max-width: 40em;
+    margin: 0 auto;
+    // font-weight: bold;
+    font-style: normal;
     font-size: 1.3rem;
-    padding: 1em;
+    text-align: center;
+    // padding: 0.5em;
+    padding-bottom: 1em;
 }
 
-.program-content-container h1 { 
+.program-container { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    // font-family: "Bebas Neue", sans-serif;
+    font-family: sans-serif;
+    color: silver;
+    border-bottom: 2px solid silver;
+}
+
+.program-container img { 
+    width: 40em;
+    border-radius: 5%;
+}
+
+.program-container p { 
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    max-width: 40em;
+    color: silver;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+.program-description-container h1 { 
+    font-size: 3rem;
+    padding: 0.2em;
+    color: white;
     font-weight: bold;
 }
 
-.program-content-container img { 
-    width: 28em;
-    border-radius: 5%;
-    padding-bottom: .5em;
+.program-detail-list-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-align: left;
+    color: white;
+    font-weight: bold;
 }
 
-// .kids-classes-img { 
-//     height: 30em;
-//     width: 10em;
-// }
+.program-description-container { 
+    text-align: center;
+}
+
+.program-detail-list-container h3 { 
+    font-weight: bold;
+    color: white;
+}
+
+// .program-description-container 
