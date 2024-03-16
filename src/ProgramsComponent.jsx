@@ -4,6 +4,7 @@ import adultNogiImg from "../assets/adult-nogi-img.jpg";
 import adultGiImg from "../assets/vault-gi-class-img.jpg";
 import kidsClassesImg from "../assets/pexels-cottonbro-studio-7988777.jpg";
 import womensClassesImg from "../assets/womens-classes-img-vault.jpg";
+import compClassImg from "../assets/vault-comp-class-img.jpeg"
 
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
 import saunaImg from "../assets/vault-sauna-img.jpg";
@@ -197,24 +198,84 @@ export default function ProgramsComponent() {
               <h3>What You Will Learn</h3>
               <ul>
                 <li>
-                Self-defense techniques tailored for women's specific needs and situations.
+                  Self-defense techniques tailored for women's specific needs
+                  and situations.
                 </li>
                 <li>
-                Fundamental jiu-jitsu moves and positions, focusing on leverage and technique over strength.
+                  Fundamental jiu-jitsu moves and positions, focusing on
+                  leverage and technique over strength.
                 </li>
                 <li>
-                Strategies for assertiveness, boundary-setting, and confidence-building.
+                  Strategies for assertiveness, boundary-setting, and
+                  confidence-building.
                 </li>
-                <li>Physical conditioning and fitness exercises designed to enhance strength, agility, and endurance.</li>
                 <li>
-                  Supportive community and empowerment through camaraderie with fellow female practitioners.
+                  Physical conditioning and fitness exercises designed to
+                  enhance strength, agility, and endurance.
+                </li>
+                <li>
+                  Supportive community and empowerment through camaraderie with
+                  fellow female practitioners.
                 </li>
               </ul>
             </div>
 
             {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
-              "The atmosphere in our classes is awesome! Very positive and encouraging. We will help you grow your confidence, get in fantastic shape and learn valuable self defense skills! " -Coach Lina
+              "The atmosphere in our classes is awesome! Very positive and
+              encouraging. We will help you grow your confidence, get in
+              fantastic shape and learn valuable self defense skills! " -Coach
+              Lina
+            </p>
+          </div>
+        </div>
+
+        <div className="program-container">
+          <img src={compClassImg}></img>
+
+          <div className="program-description-container">
+            <h1>Friday Competition Class</h1>
+            <p>
+              The competition jiu-jitsu class is designed to prepare
+              participants for competitive grappling in Gi or NoGi! In this
+              dynamic and intense training environment, students focus on
+              refining their technique, developing agility, and enhancing their
+              grappling skills following the ruleset of the competition the
+              student is participating in. Led by experienced coaches, this
+              class emphasizes strategy, athleticism, and mental resilience,
+              providing participants with the tools and confidence to excel in
+              Gi and NoGi jiu-jitsu competitions.
+            </p>
+
+            <div className="program-detail-list-container">
+              <h3>What You Will Learn</h3>
+              <ul>
+                <li>
+                  Refinement of grappling techniques tailored for competition
+                  scenarios.
+                </li>
+                <li>
+                  Strategy development and tactical approaches specific to
+                  jiu-jitsu tournaments.
+                </li>
+                <li>
+                  Physical conditioning and agility drills aimed at enhancing
+                  competitive performance.
+                </li>
+                <li>
+                  Mental preparation techniques to stay focused and resilient
+                  during matches.
+                </li>
+                <li>
+                  Rules interpretation and application for effective competition
+                  participation.
+                </li>
+              </ul>
+            </div>
+
+            {/* <p>Favorite submission: Rear naked choke</p> */}
+            <p>
+              "In my opinion this is the best class of the week! I love the positional sparring and drilling competition based scenarios. Plus it is a fantastic workout!" -Alec
             </p>
           </div>
         </div>
