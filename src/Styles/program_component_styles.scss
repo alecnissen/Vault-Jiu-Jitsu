@@ -49,6 +49,7 @@
     color: silver;
     margin: 0 auto;
     padding: 0.5em;
+
 }
 
 .program-description-container h1 { 
@@ -67,6 +68,8 @@
     text-align: left;
     color: white;
     font-weight: bold;
+    max-width: 30em;
+    margin: 0 auto;
 }
 
 .program-description-container { 
@@ -78,4 +81,11 @@
     color: white;
 }
 
+.recovery-room-header-styles { 
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    padding: 0.5em;
+    font-size: 3rem;
+}
 // .program-description-container 

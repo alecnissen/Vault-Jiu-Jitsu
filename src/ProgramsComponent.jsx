@@ -4,7 +4,8 @@ import adultNogiImg from "../assets/adult-nogi-img.jpg";
 import adultGiImg from "../assets/vault-gi-class-img.jpg";
 import kidsClassesImg from "../assets/pexels-cottonbro-studio-7988777.jpg";
 import womensClassesImg from "../assets/womens-classes-img-vault.jpg";
-import compClassImg from "../assets/vault-comp-class-img.jpeg"
+import compClassImg from "../assets/vault-comp-class-img.jpeg";
+import openMatImg from "../assets/vault-open-mat.jpeg";
 
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
 import saunaImg from "../assets/vault-sauna-img.jpg";
@@ -275,8 +276,226 @@ export default function ProgramsComponent() {
 
             {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
-              "In my opinion this is the best class of the week! I love the positional sparring and drilling competition based scenarios. Plus it is a fantastic workout!" -Alec
+              "In my opinion this is the best class of the week! I love the
+              positional sparring and drilling competition based scenarios. Plus
+              it is a fantastic workout!" -Alec
             </p>
+          </div>
+        </div>
+
+        <div className="program-container">
+          <img src={openMatImg}></img>
+
+          <div className="program-description-container">
+            <h1>Sunday Open Mat</h1>
+            <p>
+              Join us for an opportunity to engage in live sparring sessions and
+              focused drilling exercises. Whether you're looking to refine
+              specific techniques or simply socialize, our open mat welcomes
+              students from all schools. Explore new styles, techniques, and
+              training partners in a supportive and collaborative environment.
+              Open to everyone!
+            </p>
+
+            <div className="program-detail-list-container">
+              <h3>What You Will Learn</h3>
+              <ul>
+                <li>
+                  Engage in cross-training with peers from diverse schools.
+                </li>
+                <li>
+                  Gain valuable experience through live sparring and positional
+                  training.
+                </li>
+                <li>
+                  Enhance endurance and stamina through multiple sparring
+                  rounds.
+                </li>
+                <li>
+                  Refine techniques by drilling both strengths and weaknesses.
+                </li>
+                <li>
+                  Receive personalized guidance and training insights from
+                  instructors.
+                </li>
+              </ul>
+            </div>
+
+            {/* <p>Favorite submission: Rear naked choke</p> */}
+            <p>
+              "It's just an awesome oppournity to meet new people, and
+              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
+              place to be!" -Ellis
+            </p>
+          </div>
+        </div>
+
+        <h1 className="recovery-room-header-styles">Recovery Room</h1>
+
+        <h3>
+          We offer some of the best recovery methods to our members! Discover
+          the benefits of these amazing tools!
+        </h3>
+
+        <div className="program-container">
+          <img src={openMatImg}></img>
+
+          <div className="program-description-container">
+            <h1>Morkozzo Cold Plunge</h1>
+            <p>
+              "The Morozko cold plunge, or ice bath, is a therapeutic practice
+              that involves immersing the body in cold water for a brief period.
+              It offers numerous benefits, including reduced muscle soreness,
+              improved recovery after intense physical activity, and enhanced
+              circulation. Many athletes and wellness enthusiasts incorporate
+              cold plunges into their routines to promote overall well-being and
+              optimize performance."
+            </p>
+
+            <div className="program-detail-list-container">
+              <h3>Benefits of Using the Cold Plunge</h3>
+              <ul>
+                <li>Accelerates muscle recovery after intense workouts.</li>
+                <li>Reduces inflammation and muscle soreness.</li>
+                <li>Enhances circulation throughout the body.</li>
+                <li>Boosts energy levels and invigorates the mind.</li>
+                <li>
+                  Strengthens the immune system and promotes overall well-being.
+                </li>
+              </ul>
+            </div>
+
+            {/* <p>Favorite submission: Rear naked choke</p> */}
+            {/* <p>
+              "It's just an awesome oppournity to meet new people, and
+              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
+              place to be!" -Ellis
+            </p> */}
+          </div>
+        </div>
+
+        <div className="program-container">
+          <img src={openMatImg}></img>
+
+          <div className="program-description-container">
+            <h1>Sauna</h1>
+            <p>
+              A sauna is a small room or space designed to produce heat,
+              typically through the use of dry or wet heat sources. It offers
+              various health benefits, including relaxation, stress relief,
+              improved circulation, detoxification, and potential enhancement of
+              athletic performance. Saunas are widely enjoyed for their ability
+              to promote physical and mental well-being.
+            </p>
+
+            <div className="program-detail-list-container">
+              <h3>Benefits of Using the Sauna</h3>
+              <ul>
+                <li>Promotes relaxation and reduces stress levels.</li>
+                <li>Improves circulation throughout the body.</li>
+                <li>Supports detoxification by inducing sweating.</li>
+                <li>Helps relieve muscle tension and soreness.</li>
+                <li>
+                  May enhance skin health and promote a youthful appearance.
+                </li>
+              </ul>
+            </div>
+
+            {/* <p>Favorite submission: Rear naked choke</p> */}
+            {/* <p>
+              "It's just an awesome oppournity to meet new people, and
+              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
+              place to be!" -Ellis
+            </p> */}
+          </div>
+        </div>
+
+        <div className="program-container">
+          <img src={openMatImg}></img>
+
+          <div className="program-description-container">
+            <h1>Red Light Therapy</h1>
+            <p>
+              Red light therapy, also known as photobiomodulation, involves
+              exposing the skin to low levels of red or near-infrared light.
+              This non-invasive treatment is believed to stimulate cellular
+              function, promoting healing and reducing inflammation. It's used
+              for various purposes, including improving skin health, reducing
+              pain, and enhancing overall well-being.
+            </p>
+
+            <div className="program-detail-list-container">
+              <h3>Benefits of Using Red Light Therapy</h3>
+              <ul>
+                <li>Promotes skin healing and regeneration</li>
+                <li>Reduces inflammation and pain</li>
+                <li>
+                  Enhances collagen production, improving skin elasticity and
+                  reducing wrinkles
+                </li>
+                <li>
+                  Boosts circulation, aiding in nutrient delivery and waste
+                  removal
+                </li>
+                <li>Supports mood regulation and may improve sleep quality</li>
+              </ul>
+            </div>
+
+            {/* <p>Favorite submission: Rear naked choke</p> */}
+            {/* <p>
+              "It's just an awesome oppournity to meet new people, and
+              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
+              place to be!" -Ellis
+            </p> */}
+          </div>
+        </div>
+
+        <div className="program-container">
+          <img src={openMatImg}></img>
+
+          <div className="program-description-container">
+            <h1>NormaTech Compression Therapy</h1>
+            <p>
+              Normatech compression therapy involves the use of dynamic
+              pneumatic compression to enhance circulation and expedite recovery
+              in muscles and limbs. This therapy employs intermittent pressure
+              to aid in reducing inflammation, alleviating muscle soreness, and
+              facilitating recovery after intense physical activity or injury.
+            </p>
+
+            <div className="program-detail-list-container">
+              <h3>Benefits of Using NormaTech Compression Sleeves</h3>
+              <ul>
+                <li>
+                  Facilitates muscle recovery by enhancing circulation and
+                  reducing inflammation.
+                </li>
+                <li>
+                  Alleviates muscle soreness and fatigue, promoting quicker
+                  recovery after intense workouts or competitions.
+                </li>
+                <li>
+                  Helps prevent swelling and edema by promoting the movement of
+                  lymphatic fluid.
+                </li>
+                <li>
+                  Enhances overall athletic performance by reducing muscle
+                  fatigue and improving muscle function.
+                </li>
+                <li>
+                  Provides a convenient and effective way to recover from
+                  strenuous physical activities, improving overall well-being
+                  and readiness for subsequent training sessions.
+                </li>
+              </ul>
+            </div>
+
+            {/* <p>Favorite submission: Rear naked choke</p> */}
+            {/* <p>
+              "It's just an awesome oppournity to meet new people, and
+              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
+              place to be!" -Ellis
+            </p> */}
           </div>
         </div>
       </div>
