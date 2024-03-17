@@ -34,7 +34,7 @@ export default function Header() {
         <Link to="/ProgramsComponent" className="header-link">Programs</Link>
         </button>
         <button>
-          <Link to="" className="header-link">Contact/FAQ</Link>
+          <Link to="/ContactFAQ" className="header-link">Contact/FAQ</Link>
         </button>
       </div>
 

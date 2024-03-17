@@ -14,6 +14,7 @@ import { useState, useEffect } from "react"
 import Schedule from "./Schedule"
 import Instructors from "./Instructors"
 import ProgramsComponent from "./ProgramsComponent"
+import ContactFAQ from "./ContactFAQ"
 
 export default function App() {
 
@@ -93,7 +94,7 @@ export default function App() {
     <Route path="/Schedule" element={<Schedule></Schedule>}></Route>
     <Route path="/Instructors" element={<Instructors></Instructors>}></Route>
     <Route path="/ProgramsComponent" element={<ProgramsComponent></ProgramsComponent>}></Route>
-
+    <Route path="/ContactFAQ" element={<ContactFAQ></ContactFAQ>}></Route>
     </Routes>
 
     </>
