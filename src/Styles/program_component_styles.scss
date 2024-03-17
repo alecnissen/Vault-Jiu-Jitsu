@@ -19,7 +19,7 @@
     margin: 0 auto;
     // font-weight: bold;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
     // padding: 0.5em;
     padding-bottom: 1em;
@@ -88,4 +88,45 @@
     padding: 0.5em;
     font-size: 3rem;
 }
-// .program-description-container 
+
+@media (max-width: 1370px) { 
+    .program-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .programs-content-wrapper h3 { 
+        max-width: 30em;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1020px) { 
+    .programs-content-wrapper h3 { 
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 760px) { 
+    .program-container p,
+    .program-detail-list-container,
+    .programs-content-wrapper h3 { 
+        font-size: 0.9rem;
+    }
+
+    .program-description-container h1 { 
+        font-size: 2rem;
+    }
+
+    .program-container img { 
+        width: 27em;
+    }
+}
+
+@media (max-width: 450px) { 
+    .program-container img { 
+        width: 21em;
+    }
+}

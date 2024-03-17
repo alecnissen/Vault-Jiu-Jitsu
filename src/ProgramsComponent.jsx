@@ -6,9 +6,13 @@ import kidsClassesImg from "../assets/pexels-cottonbro-studio-7988777.jpg";
 import womensClassesImg from "../assets/womens-classes-img-vault.jpg";
 import compClassImg from "../assets/vault-comp-class-img.jpeg";
 import openMatImg from "../assets/vault-open-mat.jpeg";
-
+import coldPlungeImg from "../assets/cold-plunge.jpeg";
+import saunaImg from "../assets/vault-sauna-img-2.jpeg"
+import redLightTherapyImg from "../assets/red-light-img-2.jpeg"
+import normaTecImg from "../assets/norma-tec-compression-img.jpeg"
+ 
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
-import saunaImg from "../assets/vault-sauna-img.jpg";
+// import saunaImg from "../assets/vault-sauna-img.jpg";
 
 import coachJulianPhoto from "../assets/julian-photo-for-vault-website.jpg";
 import coachAdalinaPhoto from "../assets/adalina-vault-website-img.jpg";
@@ -338,7 +342,7 @@ export default function ProgramsComponent() {
         </h3>
 
         <div className="program-container">
-          <img src={openMatImg}></img>
+          <img src={coldPlungeImg}></img>
 
           <div className="program-description-container">
             <h1>Morkozzo Cold Plunge</h1>
@@ -375,7 +379,7 @@ export default function ProgramsComponent() {
         </div>
 
         <div className="program-container">
-          <img src={openMatImg}></img>
+          <img src={saunaImg}></img>
 
           <div className="program-description-container">
             <h1>Sauna</h1>
@@ -411,7 +415,7 @@ export default function ProgramsComponent() {
         </div>
 
         <div className="program-container">
-          <img src={openMatImg}></img>
+          <img src={redLightTherapyImg}></img>
 
           <div className="program-description-container">
             <h1>Red Light Therapy</h1>
@@ -454,9 +458,9 @@ export default function ProgramsComponent() {
           <img src={openMatImg}></img>
 
           <div className="program-description-container">
-            <h1>NormaTech Compression Therapy</h1>
+            <h1>NormaTec Compression Therapy</h1>
             <p>
-              Normatech compression therapy involves the use of dynamic
+              NormaTec compression therapy involves the use of dynamic
               pneumatic compression to enhance circulation and expedite recovery
               in muscles and limbs. This therapy employs intermittent pressure
               to aid in reducing inflammation, alleviating muscle soreness, and
@@ -464,7 +468,7 @@ export default function ProgramsComponent() {
             </p>
 
             <div className="program-detail-list-container">
-              <h3>Benefits of Using NormaTech Compression Sleeves</h3>
+              <h3>Benefits of Using NormaTec Compression Sleeves</h3>
               <ul>
                 <li>
                   Facilitates muscle recovery by enhancing circulation and
