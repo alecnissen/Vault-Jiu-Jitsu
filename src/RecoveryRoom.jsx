@@ -6,10 +6,45 @@ import coldPlungeImg from "../assets/vault-cold-plunge-img.webp";
 import saunaImg from "../assets/vault-sauna-img.jpg";
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
 import redlightImg from "../assets/pexels-johannes-plenio-1996035.jpg";
+import { useState, useRef, useEffect } from "react";
 
 export default function RecoveryRoom() {
+
+  const recoveryRoomContentWrapper = useRef(null);
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    // const options = {
+    //   root: null,
+    //   rootMargin: "0px",
+    //   threshold: 0.2,
+    // };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setShow(true);
+          observer.disconnect();
+        }
+      });
+    });
+
+    if (recoveryRoomContentWrapper.current) {
+      observer.observe(recoveryRoomContentWrapper.current);
+    }
+
+    return () => {
+      if (recoveryRoomContentWrapper.current) {
+        observer.unobserve(recoveryRoomContentWrapper.current);
+      }
+    };
+  }, []);
+
+
+
   return (
-    <div className="recovery-room-content-wrapper">
+    // <div className="recovery-room-content-wrapper">
+      <div className={`recovery-room-content-wrapper ${show ? "focused" : ""}`} ref={recoveryRoomContentWrapper}>
       <h1>Our Recovery Room</h1>
 
       <p className="recovery-room-text">
