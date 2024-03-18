@@ -25,3 +25,5 @@
 // stop and implememt the suggestions, before moving forward
 
 // first fix the icons 
+
+// how can I make the cards in the faq responsive

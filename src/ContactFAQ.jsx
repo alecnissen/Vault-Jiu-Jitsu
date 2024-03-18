@@ -27,7 +27,6 @@ export default function ContactFAQ() {
 
         <h1 className="FAQ-header-text-styles">FAQ</h1>
         <div className="FAQ-content-container">
-          <div className="card-set-1">
             <div className="question-card-content">
               <h6>Do I need to be in shape to try Jiu Jitsu?</h6>
               <p>
@@ -63,9 +62,8 @@ export default function ContactFAQ() {
                 environment of the classes, rather than to compete.
               </p>
             </div>
-          </div>
+          
 
-          <div className="card-set-2">
             <div className="question-card-content">
               <h6>How do I prepare for my first class?</h6>
               <p>
@@ -98,7 +96,7 @@ export default function ContactFAQ() {
                 Unlocking your potential at VAULT JIU JITSU
               </p>
             </div>
-          </div>
+          
         </div>
       </div>
     </>
