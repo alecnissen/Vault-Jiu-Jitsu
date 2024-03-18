@@ -39,8 +39,13 @@ export default function Header() {
       </div>
 
       <div className="header-insta-fb-links-container">
+        <a href="https://www.instagram.com/vault_bjj/?hl=en">
         <img src={instaLogo} className="insta-logo-header"></img>
+        </a>
+        
+        <a href='https://www.facebook.com/vaultbjj'>
         <img src={fbLogo} className='fb-logo-header'></img>
+        </a>
       </div>
     </div>
   );
