@@ -21,23 +21,30 @@ import bjjPhoto from "../assets/hero-bg.jpg";
 import coachMattPhoto from "../assets/matt-kelley-vault-img.jpg";
 import coachJudahPhoto from "../assets/judah-img-vault.webp";
 import { useEffect, useRef } from "react";
+import { useLocation } from "react-router-dom";
+
+
 
 export default function ProgramsComponent() {
 
-  const nogiSection = useRef(null);
-  const giSection = useRef(null);
+  const location = useLocation();
+  const nogiSectionRef = useRef(null);
+  const giSectionRef = useRef(null);
+  const kidsSectionRef = useRef(null);
+  const womensClassesRef = useRef(null);
 
   useEffect(() => {
-    if (nogiSection.current) {
-      nogiSection.current.scrollIntoView({ behavior: 'smooth' });
+    const hash = location.hash;
+    if (hash === "#nogi-section") {
+      nogiSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#gi-section") {
+      giSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#kids-classes") { 
+      kidsSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#womens-classes") { 
+      womensClassesRef.current.scrollIntoView({ behavior: "smooth" });
     }
-  }, [nogiSection]);
-
-  // useEffect(() => {
-  //   if (giSection.current) {
-  //     giSection.current.scrollIntoView({ behavior: 'smooth' });
-  //   }
-  // }, [giSection]);
+  }, [location.hash]);
 
   return (
     <>
@@ -55,7 +62,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={adultNogiImg}></img>
 
-          <div className="program-description-container" id="nogi-section" ref={nogiSection}>
+          <div className="program-description-container" id="nogi-section" ref={nogiSectionRef}>
             <h1>Adult NOGI</h1>
             <p>
               A no-gi jiu-jitsu class is a dynamic martial arts session that
@@ -100,7 +107,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={adultGiImg}></img>
 
-          <div className="program-description-container" id="gi-section">
+          <div className="program-description-container" id="gi-section" ref={giSectionRef}>
             <h1>Adult GI</h1>
             <p>
               A gi jiu-jitsu class is an immersive training session focused on
@@ -157,7 +164,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={kidsClassesImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="kids-classes" ref={kidsSectionRef}>
             <h1>Kids Jiu-Jitsu Classes</h1>
             <p>
               In our kids jiu-jitsu classes, young practitioners learn
@@ -203,7 +210,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={womensClassesImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="womens-classes" ref={womensClassesRef}>
             <h1>Women's Jiu-Jitsu Classes</h1>
             <p>
               The women's only jiu-jitsu class provides a supportive and

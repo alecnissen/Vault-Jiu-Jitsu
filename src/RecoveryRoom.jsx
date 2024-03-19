@@ -2,11 +2,17 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 // import coldPlungeImg from "../assets/20230424-EA0A3551_edited.webp";
-import coldPlungeImg from "../assets/vault-cold-plunge-img.webp";
-import saunaImg from "../assets/vault-sauna-img.jpg";
+
+// import coldPlungeImg from "../assets/vault-cold-plunge-img.webp";
+// import saunaImg from "../assets/vault-sauna-img.jpg";
+
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
 import redlightImg from "../assets/pexels-johannes-plenio-1996035.jpg";
 import { useState, useRef, useEffect } from "react";
+
+import coldPlungeImg from "../assets/cold-plunge.jpeg";
+import saunaImg from "../assets/vault-sauna-img-2.jpeg"
+import redLightTherapyImg from "../assets/red-light-img-2.jpeg"
 
 export default function RecoveryRoom() {
 
@@ -59,7 +65,7 @@ export default function RecoveryRoom() {
           <Card className="recovery-card-container">
             <Card.Img
               variant="top"
-              src={iceImg}
+              src={coldPlungeImg}
               className="cold-plunge-img card-img"
             />
             <Card.Body className="recovery-card-body">
@@ -110,7 +116,7 @@ export default function RecoveryRoom() {
 
         <div className="recovery-card-group-2">
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={redlightImg} className="card-img" />
+            <Card.Img variant="top" src={saunaImg} className="card-img" />
             <Card.Body className="recovery-card-body">
               <Card.Title className="recovery-card-header">
                 Red Light Therapy

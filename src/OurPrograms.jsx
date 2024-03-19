@@ -8,6 +8,7 @@ import womensBjjClassPhoto from "../assets/womens-bjj-classes-vault.jpg";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
+
 export default function OurPrograms() {
   const programsContentWrapper = useRef(null);
   const [show, setShow] = useState(false);
@@ -114,7 +115,11 @@ export default function OurPrograms() {
                 self-esteem, self-respect, patience and problem-solving skills
                 in kids in a very fun way.
               </Card.Text>
+
+              <Link to="/ProgramsComponent#kids-classes">
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
+              </Link>
+
             </Card.Body>
           </Card>
 
@@ -137,7 +142,11 @@ export default function OurPrograms() {
                 you through the core techniques of Jiu-Jitsu and having lots of
                 fun while doing it!
               </Card.Text>
+
+              <Link to="/ProgramsComponent#womens-classes">
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
+              </Link>
+
             </Card.Body>
           </Card>
         </div>
