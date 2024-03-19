@@ -42,6 +42,57 @@
     font-family: sans-serif;
 }
 
+.bjj-benefits-list li { 
+    opacity: 0;
+}
+
+.bjj-benefits-list.focused li { 
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.bjj-benefits-list li:nth-child(1) { 
+    animation-delay: 0.5s;
+}
+
+.bjj-benefits-list li:nth-child(2) { 
+    animation-delay: 1s;
+}
+
+.bjj-benefits-list li:nth-child(3) { 
+    animation-delay: 1.5s;
+}
+
+.bjj-benefits-list li:nth-child(4) { 
+    animation-delay: 2s;
+}
+
+.bjj-benefits-list li:nth-child(5) { 
+    animation-delay: 2.5s;
+}
+
+.bjj-benefits-list li:nth-child(6) { 
+    animation-delay: 3s;
+}
+
+.bjj-benefits-list li:nth-child(7) { 
+    animation-delay: 3.5s;
+}
+
+@keyframes fadeIn { 
+    0% { 
+        opacity: 0;
+    }
+
+    100% { 
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
 @media (max-width: 1030px) { 
     .what-is-bjj-content-wrapper p,
     .what-is-bjj-content-wrapper ul { 
