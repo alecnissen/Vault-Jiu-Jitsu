@@ -70,7 +70,7 @@ export default function OurPrograms() {
                 use traditional Jiu Jitsu moves to sweep, submit, and pin your
                 opponent.
               </Card.Text>
-              <Link to="/nogi-section" smooth={true} duration={500}>
+              <Link to="/ProgramsComponent#nogi-section">
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
               </Link>
             </Card.Body>
@@ -90,8 +90,10 @@ export default function OurPrograms() {
                 practioner!
               </Card.Text>
               
+              <Link to="/ProgramsComponent#gi-section">
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
-              
+              </Link>
+
             </Card.Body>
           </Card>
         </div>

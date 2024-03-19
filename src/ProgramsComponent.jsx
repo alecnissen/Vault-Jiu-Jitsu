@@ -100,7 +100,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={adultGiImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="gi-section">
             <h1>Adult GI</h1>
             <p>
               A gi jiu-jitsu class is an immersive training session focused on
