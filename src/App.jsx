@@ -94,6 +94,8 @@ export default function App() {
     <Route path="/Schedule" element={<Schedule></Schedule>}></Route>
     <Route path="/Instructors" element={<Instructors></Instructors>}></Route>
     <Route path="/ProgramsComponent" element={<ProgramsComponent></ProgramsComponent>}></Route>
+    <Route path="/nogi-section" element={<ProgramsComponent></ProgramsComponent>}></Route>
+    {/* <Route path="/giSection" element={<ProgramsComponent></ProgramsComponent>}></Route> */}
     <Route path="/ContactFAQ" element={<ContactFAQ></ContactFAQ>}></Route>
     </Routes>
 

@@ -20,8 +20,25 @@ import coachSabrinaPhoto from "../assets/matt-sabrina-vault-img.jpg";
 import bjjPhoto from "../assets/hero-bg.jpg";
 import coachMattPhoto from "../assets/matt-kelley-vault-img.jpg";
 import coachJudahPhoto from "../assets/judah-img-vault.webp";
+import { useEffect, useRef } from "react";
 
 export default function ProgramsComponent() {
+
+  const nogiSection = useRef(null);
+  const giSection = useRef(null);
+
+  useEffect(() => {
+    if (nogiSection.current) {
+      nogiSection.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [nogiSection]);
+
+  // useEffect(() => {
+  //   if (giSection.current) {
+  //     giSection.current.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // }, [giSection]);
+
   return (
     <>
       <Header2></Header2>
@@ -38,7 +55,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={adultNogiImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="nogi-section" ref={nogiSection}>
             <h1>Adult NOGI</h1>
             <p>
               A no-gi jiu-jitsu class is a dynamic martial arts session that

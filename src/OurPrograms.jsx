@@ -6,6 +6,7 @@ import giPhoto from "../assets/hero-bg.jpg";
 import kidsBjjPhoto from "../assets/pexels-cottonbro-studio-7988827.jpg";
 import womensBjjClassPhoto from "../assets/womens-bjj-classes-vault.jpg";
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function OurPrograms() {
   const programsContentWrapper = useRef(null);
@@ -69,7 +70,9 @@ export default function OurPrograms() {
                 use traditional Jiu Jitsu moves to sweep, submit, and pin your
                 opponent.
               </Card.Text>
+              <Link to="/nogi-section" smooth={true} duration={500}>
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
+              </Link>
             </Card.Body>
           </Card>
 
@@ -86,7 +89,9 @@ export default function OurPrograms() {
                 class to attend as it will make you a more complete Jiu-Jitsu
                 practioner!
               </Card.Text>
+              
               <Button variant="primary" className="programs-learn-more-btn">Learn More</Button>
+              
             </Card.Body>
           </Card>
         </div>
