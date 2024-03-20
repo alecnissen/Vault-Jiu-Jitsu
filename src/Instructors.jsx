@@ -56,23 +56,24 @@ export default function Instructors() {
           <img src={coachAdalinaPhoto}></img>
 
           <div className="bio-description-container">
-            <h1>Adalina Alvarez</h1>
+            <h1>Adelina Alvarez</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              est suscipit facere commodi, ipsa sapiente asperiores autem
-              aliquam enim officia illum qui, quod quibusdam vero aut eaque
-              optio quidem veritatis! Magni consectetur distinctio fugit.
-              Numquam architecto fuga, ullam quasi cumque quas accusantium
-              dolores distinctio iure at doloremque laudantium ex eligendi nam
-              nobis obcaecati officiis cum quae et blanditiis labore quos.
+              Adelina, with nearly a lifetime dedicated to jiu-jitsu, brings
+              over 11 years of extensive experience to her role. A decorated
+              competitor, she has secured victories in various regional and
+              international tournaments, consistently adding to her collection
+              of medals and accolades. Passionate about her craft, Adelina takes
+              immense pride in her role as an instructor at the Vault, where she
+              inspires women to embark on their jiu-jitsu journey and transform
+              their lives positively.
             </p>
 
             <div className="accolades-list-container">
               <ul>
                 <li>Brown Belt under Matt Kelley</li>
-                <li>2023 IBJJF Purple Belt World Champion</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>2023 IBJJF Brown Belt Bronze Medalist</li>
+                <li>2022 IBJJF Purple Belt Medalist</li>
+                <li>2022 Finishers Jiu Jitsu Champion</li>
               </ul>
             </div>
 
@@ -87,13 +88,14 @@ export default function Instructors() {
           <div className="bio-description-container">
             <h1>Matt Kelley</h1>
             <p>
-              Matt Kelley is a black belt under Brian Rago of Gracie Humaita
-              Philadelphia. Matt has spent years training with and learning from
-              some of the best Jiu Jitsu practitioners in the country. He is a
-              loving father, husband, and devotes his life to helping others
-              unlock their potential both on and off the mats. In addition to
-              teaching at the Vault, Matt continues to teach every Sunday at 8
-              a.m. at Gracie Humaita Philadelphia.
+              Matt Kelley, a black belt under Brian Rago of Gracie Humaita
+              Philadelphia, boasts extensive experience garnered through years
+              of training alongside top jiu-jitsu practitioners nationwide.
+              Beyond the mats, Matt is a devoted father and husband, committed
+              to guiding others towards unlocking their full potential.
+              Alongside his duties at the Vault, Matt shares his expertise by
+              teaching weekly classes at Gracie Humaita Philadelphia every
+              Sunday at 8 a.m.
             </p>
 
             <div className="accolades-list-container">
@@ -101,9 +103,9 @@ export default function Instructors() {
                 <li>
                   Black Belt under Brain Rago from Gracie Humaita Philadelphia
                 </li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>2022 IBJJF NOGI Bronze Medalist</li>
+                <li>FTW 90 Superfight Winner</li>
+                <li>Also a small business owner, Prodigy Pest Solutions</li>
               </ul>
             </div>
 
@@ -121,24 +123,27 @@ export default function Instructors() {
           <div className="bio-description-container">
             <h1>Sabrina Kelley</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              est suscipit facere commodi, ipsa sapiente asperiores autem
-              aliquam enim officia illum qui, quod quibusdam vero aut eaque
-              optio quidem veritatis! Magni consectetur distinctio fugit.
-              Numquam architecto fuga, ullam quasi cumque quas accusantium
-              dolores distinctio iure at doloremque laudantium ex eligendi nam
-              nobis obcaecati officiis cum quae et blanditiis labore quos.
+              Sabrina is a dedicated jiu-jitsu instructor with a unique
+              background in psychology, seamlessly blending her expertise in
+              both disciplines to empower her students both physically and
+              mentally. As a blue belt practitioner, she brings a wealth of
+              experience and technical knowledge to her classes, fostering a
+              supportive learning environment. Sabrina's passion for teaching
+              extends to working with children, where she channels her
+              enthusiasm for jiu-jitsu into cultivating confidence and
+              resilience in her young students while instilling a love for the
+              sport.
             </p>
 
             <div className="accolades-list-container">
               <ul>
                 <li>
-                  PhD In School Psychology from Philadelphai College Of
+                  PhD In School Psychology from Philadelpha College Of
                   Osteopathic Medicine (PCOM)
                 </li>
                 <li>Blue Belt under Brain Rago from Gracie Humaita</li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
+                <li>Youth Instructor</li>
+                <li>Board certified Psychologist</li>
               </ul>
             </div>
 
@@ -156,13 +161,18 @@ export default function Instructors() {
           <div className="bio-description-container">
             <h1>Judah Ciervo</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              est suscipit facere commodi, ipsa sapiente asperiores autem
-              aliquam enim officia illum qui, quod quibusdam vero aut eaque
-              optio quidem veritatis! Magni consectetur distinctio fugit.
-              Numquam architecto fuga, ullam quasi cumque quas accusantium
-              dolores distinctio iure at doloremque laudantium ex eligendi nam
-              nobis obcaecati officiis cum quae et blanditiis labore quos.
+              Judah's journey in martial arts began in 1997 with Muay Thai,
+              leading to a successful amateur career spanning 9 years. As a Muay
+              Thai instructor since 2002, he trained alongside notable MMA
+              figures like Eddie Alvarez and Zach Makovsky. Transitioning to
+              MMA, Judah won his pro debut in 2008 and continued to compete
+              internationally in Muay Thai, showcasing his skills against
+              top-tier opponents. While he no longer competes in Muay Thai or
+              MMA, Judah remains active in No Gi grappling, achieving notable
+              victories including winning the first Finishers Open at 145lbs in
+              2018 and securing 3rd place at the IBJJF No Gi World Championship
+              in 2021 as a brown belt. In January 2022, he attained his black
+              belt in Brazilian Jiu-Jitsu from Phil and Ricardo Migliarese.
             </p>
 
             <div className="accolades-list-container">
@@ -171,9 +181,9 @@ export default function Instructors() {
                   Black Belt under Phil and Ricardo Migliarese from Balance
                   Studios
                 </li>
+                <li>2022 IBJJF Silver Medalist NOGI at Brown Belt</li>
+                <li>2021 IBJJF Bronze Medalist NOGI at Brown Belt</li>
                 <li>Professional Muay Thai Experience</li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
-                <li>Lorem ipsum dolor sit amet consectetur</li>
               </ul>
             </div>
 
