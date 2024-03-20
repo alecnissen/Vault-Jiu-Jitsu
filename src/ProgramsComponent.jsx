@@ -32,6 +32,10 @@ export default function ProgramsComponent() {
   const giSectionRef = useRef(null);
   const kidsSectionRef = useRef(null);
   const womensClassesRef = useRef(null);
+  const coldPlungeRef = useRef(null);
+  const saunaRef = useRef(null);
+  const redLightRef = useRef(null);
+  const compressionRef = useRef(null);
 
   useEffect(() => {
     const hash = location.hash;
@@ -43,6 +47,14 @@ export default function ProgramsComponent() {
       kidsSectionRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (hash === "#womens-classes") { 
       womensClassesRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#cold-plunge") { 
+      coldPlungeRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#sauna") { 
+      saunaRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#red-light") { 
+      redLightRef.current.scrollIntoView({ behavior: "smooth" });
+    } else if (hash === "#compression") { 
+      compressionRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [location.hash]);
 
@@ -368,7 +380,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={coldPlungeImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="cold-plunge" ref={coldPlungeRef}>
             <h1>Morkozzo Cold Plunge</h1>
             <p>
               "The Morozko cold plunge, or ice bath, is a therapeutic practice
@@ -405,7 +417,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={saunaImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="sauna" ref={saunaRef}>
             <h1>Sauna</h1>
             <p>
               A sauna is a small room or space designed to produce heat,
@@ -441,7 +453,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={redLightTherapyImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="red-light" ref={redLightRef}>
             <h1>Red Light Therapy</h1>
             <p>
               Red light therapy, also known as photobiomodulation, involves
@@ -481,7 +493,7 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={openMatImg}></img>
 
-          <div className="program-description-container">
+          <div className="program-description-container" id="compression" ref={compressionRef}>
             <h1>NormaTec Compression Therapy</h1>
             <p>
               NormaTec compression therapy involves the use of dynamic

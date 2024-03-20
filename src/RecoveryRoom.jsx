@@ -13,6 +13,8 @@ import { useState, useRef, useEffect } from "react";
 import coldPlungeImg from "../assets/cold-plunge.jpeg";
 import saunaImg from "../assets/vault-sauna-img-2.jpeg"
 import redLightTherapyImg from "../assets/red-light-img-2.jpeg"
+import { Link } from "react-router-dom";
+// import { useState, useEffect, useRef } from "react";
 
 export default function RecoveryRoom() {
 
@@ -83,9 +85,9 @@ export default function RecoveryRoom() {
                 revitalizing approach to rejuvenate the body and foster holistic
                 health.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">
-                Learn More
-              </Button>
+              <Link to="ProgramsComponent#cold-plunge">
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              </Link>
             </Card.Body>
           </Card>
 
@@ -107,9 +109,9 @@ export default function RecoveryRoom() {
                 promote overall well-being, and rejuvenate both the body and
                 mind.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">
-                Learn More
-              </Button>
+              <Link to="ProgramsComponent#sauna">
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              </Link>
             </Card.Body>
           </Card>
         </div>
@@ -131,9 +133,9 @@ export default function RecoveryRoom() {
                 potential benefits in enhancing overall well-being and
                 addressing various health concerns.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">
-                Learn More
-              </Button>
+              <Link to="ProgramsComponent#red-light">
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              </Link>
             </Card.Body>
           </Card>
 
@@ -153,9 +155,9 @@ export default function RecoveryRoom() {
                 individuals seeking to optimize their recovery process and
                 improve overall performance.
               </Card.Text>
-              <Button variant="primary" className="recovery-learn-more-btn">
-                Learn More
-              </Button>
+              <Link to="ProgramsComponent#compression">
+              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+              </Link>
             </Card.Body>
           </Card>
         </div>
