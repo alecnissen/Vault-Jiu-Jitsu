@@ -31,11 +31,11 @@ then `npm install` which will install all dependency's and packages.
 
 <h1>Features</h1>
 
-- Header buttons, main title and subtitle will have animations applied to them. Header buttons will fade in, main title and subtitle text will slide in.
+- Viewable on the live site header buttons, main title and subtitle have animations applied to them to increase the user experience. The header buttons fade in, while the main title and subtitle text slides in.
 
 <img src="assets/RM-vault-home.png" style="width: 600px">
 
-- Bootstrap cards to display programs offered 
+- Utilizing React Bootstrap I implemented cards to display the programs offered. The cards also have a button that will link to the Programs page section that corresponds with the class on click.
 
 <img src="assets/RM-vault-classes-cards.png" style="width: 600px">
 
@@ -47,15 +47,15 @@ then `npm install` which will install all dependency's and packages.
 
 <img src="assets/RM-vault-schedule.png" style="width: 600px">
 
-- Component which shows class details and what you will be specifically learning in each class
+- Program page sections show class details, an image from the class, and what is taught in each class.
 
 <img src="assets/RM-vault-class-details.png" style="width: 600px">
 
-- Component which will show the gyms amenities such as the sauna and cold plunge. While listing more details on the benefits and science. 
+- The gymn amenities, such as the cold plunge pictured here, are also available to website visitors. Visitors can read about the equiptments uses and benefits in this section.
 
 <img src="assets/RM-vault-recovery-img.png" style="width: 600px">
 
-- Mobile responsive 
+- The website is mobile responsive and looks great on all screen sizes.
 
 <img src="assets/RM-vault-mobile-img.png" style="width: 300px">
 
