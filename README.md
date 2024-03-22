@@ -33,31 +33,31 @@ then `npm install` which will install all dependency's and packages.
 
 - Header buttons, main title and subtitle will have animations applied to them. Header buttons will fade in, main title and subtitle text will slide in.
 
-<img src="assets/RM-vault-home.png" style="width: 500px">
+<img src="assets/RM-vault-home.png" style="width: 600px">
 
 - Bootstrap cards to display programs offered 
 
-<img src="assets/RM-vault-classes-cards.png" style="width: 500px">
+<img src="assets/RM-vault-classes-cards.png" style="width: 600px">
 
 - Image carousel to show user images of the facility.
 
-<img src="assets/RM-vault-img-carousel.png" style="width: 500px">
+<img src="assets/RM-vault-img-carousel.png" style="width: 600px">
 
 - Updated class schedule.
 
-<img src="assets/RM-vault-schedule.png" style="width: 500px">
+<img src="assets/RM-vault-schedule.png" style="width: 600px">
 
 - Component which shows class details and what you will be specifically learning in each class
 
-<img src="assets/RM-vault-class-details.png" style="width: 500px">
+<img src="assets/RM-vault-class-details.png" style="width: 600px">
 
 - Component which will show the gyms amenities such as the sauna and cold plunge. While listing more details on the benefits and science. 
 
-<img src="assets/RM-vault-recovery-img.png" style="width: 500px">
+<img src="assets/RM-vault-recovery-img.png" style="width: 600px">
 
 - Mobile responsive 
 
-<img src="assets/RM-vault-mobile-img.png" style="width: 200px">
+<img src="assets/RM-vault-mobile-img.png" style="width: 300px">
 
 <h1>Acknowledgments</h1> Thank you to everyone within The Odin Project Curriculum from the bottom of my heart! Thank you to anyone who helped me in the discord channels. I promise to help others throughout this journey.
 
