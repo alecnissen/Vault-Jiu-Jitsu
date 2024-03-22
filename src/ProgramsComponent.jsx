@@ -7,10 +7,10 @@ import womensClassesImg from "../assets/womens-classes-img-vault.jpg";
 import compClassImg from "../assets/vault-comp-class-img.jpeg";
 import openMatImg from "../assets/vault-open-mat.jpeg";
 import coldPlungeImg from "../assets/cold-plunge.jpeg";
-import saunaImg from "../assets/vault-sauna-img-2.jpeg"
-import redLightTherapyImg from "../assets/red-light-img-2.jpeg"
-import normaTecImg from "../assets/norma-tec-compression-img.jpeg"
- 
+import saunaImg from "../assets/vault-sauna-img-2.jpeg";
+import redLightTherapyImg from "../assets/red-light-img-2.jpeg";
+import normaTecImg from "../assets/norma-tec-compression-img.jpeg";
+
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
 // import saunaImg from "../assets/vault-sauna-img.jpg";
 
@@ -23,10 +23,7 @@ import coachJudahPhoto from "../assets/judah-img-vault.webp";
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
-
-
 export default function ProgramsComponent() {
-
   const location = useLocation();
   const nogiSectionRef = useRef(null);
   const giSectionRef = useRef(null);
@@ -43,17 +40,17 @@ export default function ProgramsComponent() {
       nogiSectionRef.current.scrollIntoView({ behavior: "smooth" });
     } else if (hash === "#gi-section") {
       giSectionRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (hash === "#kids-classes") { 
+    } else if (hash === "#kids-classes") {
       kidsSectionRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (hash === "#womens-classes") { 
+    } else if (hash === "#womens-classes") {
       womensClassesRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (hash === "#cold-plunge") { 
+    } else if (hash === "#cold-plunge") {
       coldPlungeRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (hash === "#sauna") { 
+    } else if (hash === "#sauna") {
       saunaRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (hash === "#red-light") { 
+    } else if (hash === "#red-light") {
       redLightRef.current.scrollIntoView({ behavior: "smooth" });
-    } else if (hash === "#compression") { 
+    } else if (hash === "#compression") {
       compressionRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [location.hash]);
@@ -65,16 +62,21 @@ export default function ProgramsComponent() {
       <h1 className="our-programs-header-text">Our Programs</h1>
       <div className="programs-content-wrapper">
         <h3>
-          We want to give you the best jiu jitsu instruction and experience
-          possible! We are commited to making you the best jiu jitsu practioner
-          possible! We are here to help you throughout every step of your jiu
-          jitsu jounrney.{" "}
+          Our classes are crafted to elevate you into becoming the finest
+          jiu-jitsu practitioner you can be! Catering to diverse skill levels,
+          ages, and genders, we provide a broad range of classes. Additionally,
+          our convenient schedules are designed to accommodate your busy
+          lifestyle!{" "}
         </h3>
 
         <div className="program-container">
           <img src={adultNogiImg}></img>
 
-          <div className="program-description-container" id="nogi-section" ref={nogiSectionRef}>
+          <div
+            className="program-description-container"
+            id="nogi-section"
+            ref={nogiSectionRef}
+          >
             <h1>Adult NOGI</h1>
             <p>
               A no-gi jiu-jitsu class is a dynamic martial arts session that
@@ -119,7 +121,11 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={adultGiImg}></img>
 
-          <div className="program-description-container" id="gi-section" ref={giSectionRef}>
+          <div
+            className="program-description-container"
+            id="gi-section"
+            ref={giSectionRef}
+          >
             <h1>Adult GI</h1>
             <p>
               A gi jiu-jitsu class is an immersive training session focused on
@@ -176,7 +182,11 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={kidsClassesImg}></img>
 
-          <div className="program-description-container" id="kids-classes" ref={kidsSectionRef}>
+          <div
+            className="program-description-container"
+            id="kids-classes"
+            ref={kidsSectionRef}
+          >
             <h1>Kids Jiu-Jitsu Classes</h1>
             <p>
               In our kids jiu-jitsu classes, young practitioners learn
@@ -222,7 +232,11 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={womensClassesImg}></img>
 
-          <div className="program-description-container" id="womens-classes" ref={womensClassesRef}>
+          <div
+            className="program-description-container"
+            id="womens-classes"
+            ref={womensClassesRef}
+          >
             <h1>Women's Jiu-Jitsu Classes</h1>
             <p>
               The women's only jiu-jitsu class provides a supportive and
@@ -380,7 +394,11 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={coldPlungeImg}></img>
 
-          <div className="program-description-container" id="cold-plunge" ref={coldPlungeRef}>
+          <div
+            className="program-description-container"
+            id="cold-plunge"
+            ref={coldPlungeRef}
+          >
             <h1>Morkozzo Cold Plunge</h1>
             <p>
               "The Morozko cold plunge, or ice bath, is a therapeutic practice
@@ -417,7 +435,11 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={saunaImg}></img>
 
-          <div className="program-description-container" id="sauna" ref={saunaRef}>
+          <div
+            className="program-description-container"
+            id="sauna"
+            ref={saunaRef}
+          >
             <h1>Sauna</h1>
             <p>
               A sauna is a small room or space designed to produce heat,
@@ -453,7 +475,11 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={redLightTherapyImg}></img>
 
-          <div className="program-description-container" id="red-light" ref={redLightRef}>
+          <div
+            className="program-description-container"
+            id="red-light"
+            ref={redLightRef}
+          >
             <h1>Red Light Therapy</h1>
             <p>
               Red light therapy, also known as photobiomodulation, involves
@@ -493,13 +519,17 @@ export default function ProgramsComponent() {
         <div className="program-container">
           <img src={openMatImg}></img>
 
-          <div className="program-description-container" id="compression" ref={compressionRef}>
+          <div
+            className="program-description-container"
+            id="compression"
+            ref={compressionRef}
+          >
             <h1>NormaTec Compression Therapy</h1>
             <p>
-              NormaTec compression therapy involves the use of dynamic
-              pneumatic compression to enhance circulation and expedite recovery
-              in muscles and limbs. This therapy employs intermittent pressure
-              to aid in reducing inflammation, alleviating muscle soreness, and
+              NormaTec compression therapy involves the use of dynamic pneumatic
+              compression to enhance circulation and expedite recovery in
+              muscles and limbs. This therapy employs intermittent pressure to
+              aid in reducing inflammation, alleviating muscle soreness, and
               facilitating recovery after intense physical activity or injury.
             </p>
 
