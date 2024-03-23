@@ -12,7 +12,8 @@ import { useState, useRef, useEffect } from "react";
 
 import coldPlungeImg from "../assets/cold-plunge.jpeg";
 import saunaImg from "../assets/vault-sauna-img-2.jpeg"
-import redLightTherapyImg from "../assets/red-light-img-2.jpeg"
+import redLightTherapyImg from "../assets/IMG_2436.jpeg"
+import normaTechImg from "../assets/IMG_2437.jpeg"
 import { Link } from "react-router-dom";
 // import { useState, useEffect, useRef } from "react";
 
@@ -118,7 +119,7 @@ export default function RecoveryRoom() {
 
         <div className="recovery-card-group-2">
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={saunaImg} className="card-img" />
+            <Card.Img variant="top" src={redLightTherapyImg} className="card-img" />
             <Card.Body className="recovery-card-body">
               <Card.Title className="recovery-card-header">
                 Red Light Therapy
@@ -140,7 +141,7 @@ export default function RecoveryRoom() {
           </Card>
 
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={saunaImg} className="card-img" />
+            <Card.Img variant="top" src={normaTechImg} className="card-img" id="normatech-img" />
             <Card.Body className="recovery-card-body">
               <Card.Title className="recovery-card-header">
                 Normatech Compression Therapy

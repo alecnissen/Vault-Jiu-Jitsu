@@ -1,28 +1,31 @@
-import React from 'react'
-import Header from './Header'
-import vaultFamilyImg from "../assets/vault-bjj-family-portriat.jpg"
-import Header2 from './Header2'
+import React from "react";
+import Header from "./Header";
+import vaultFamilyImg from "../assets/vault-bjj-family-portriat.jpg";
+import Header2 from "./Header2";
 
-export default function AboutUsComponent( ) {
+export default function AboutUsComponent() {
   return (
-    <> 
-       <Header2></Header2>
-      <h1 className='about-us-component-header-text'>Our Story</h1>
-    <div className='about-us-component-content-wrapper'>
-
-    {/* <div className='about-us-component-header-container'>
+    <>
+      <Header2></Header2>
+      <h1 className="about-us-component-header-text">Our Story</h1>
+      <div className="about-us-component-content-wrapper">
+        {/* <div className='about-us-component-header-container'>
     </div> */}
 
-    
-    <img src={vaultFamilyImg} className="vault-family-img-styles"></img>
+        <img src={vaultFamilyImg} className="vault-family-img-styles"></img>
 
-    <div className='our-story-description-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit laboriosam velit repellendus quibusdam provident nostrum molestias, amet quod facilis aliquam, deserunt tempora culpa, aliquid iste quis recusandae distinctio asperiores ab?
-    Dolorum sed suscipit cumque nihil quis facilis, magnam incidunt vero in quae laborum modi sequi ut quo soluta minima. Fugiat unde quae odit accusantium veniam beatae delectus magnam qui recusandae.
-    Ducimus provident numquam asperiores a eligendi magni id iusto, quasi ad maiores autem aut accusantium, officiis cumque vitae! Aliquam obcaecati temporibus aut at nam culpa excepturi, architecto hic enim quis!
-    Aliquam veritatis ipsa maiores possimus reprehenderit recusandae facilis a, voluptate ex dolorum! Doloremque, quia. Dolorum deserunt ratione expedita nam cupiditate odio, dignissimos voluptatem reiciendis eius, delectus aliquam cumque recusandae provident?
-    Accusamus est aliquid provident porro? Error nulla vero nam, ratione sapiente, nobis fugiat illum, excepturi rerum debitis laboriosam placeat soluta natus nostrum. Soluta consectetur maxime omnis corrupti ullam tempore nam.</div>
-
-    </div>
+        <div className="our-story-description-text">
+          Welcome to our Jiu Jitsu academy in Delaware County, PA, We are Matt and Sabrina and we are glad you found us! We are 
+          dedicated to providing an exceptional Jiu Jitsu experience for
+          enthusiasts of all levels. As proud parents of two energetic kids,
+          Parker and Carter, we understand the importance of fostering a
+          supportive environment both on and off the mat. At our
+          academy, we are committed to guiding you through every step of your
+          Jiu Jitsu journey, ensuring growth, confidence, and success. Join us
+          and embark on a transformative experience where learning and community
+          thrive!
+        </div>
+      </div>
     </>
-  )
+  );
 }
