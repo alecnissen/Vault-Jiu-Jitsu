@@ -44,7 +44,7 @@ export default function Header() {
         </a>
         
         <a href='https://www.facebook.com/vaultbjj'>
-        <img src={fbLogo} className='fb-logo-header'></img>
+        <img src={fbLogo} className='fb-logo-header' id="fb-logo-header-id"></img>
         </a>
       </div>
     </div>

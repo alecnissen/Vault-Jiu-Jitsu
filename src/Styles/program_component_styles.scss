@@ -1,136 +1,135 @@
-.programs-content-wrapper { 
-    display: flex;
-    flex-direction: column;
+.programs-content-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
-.our-programs-header-text { 
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    padding: 0.5em;
-    font-size: 3rem;
+.our-programs-header-text {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  padding: 0.5em;
+  font-size: 3rem;
 }
 
-.programs-content-wrapper h3 { 
-    font-family: sans-serif;
-    color: silver;
-    max-width: 40em;
-    margin: 0 auto;
-    // font-weight: bold;
-    font-style: normal;
-    font-size: 1.4rem;
-    text-align: center;
-    // padding: 0.5em;
-    padding-bottom: 1em;
+.programs-content-wrapper h3 {
+  font-family: sans-serif;
+  color: silver;
+  max-width: 40em;
+  margin: 0 auto;
+  // font-weight: bold;
+  font-style: normal;
+  font-size: 1.4rem;
+  text-align: center;
+  // padding: 0.5em;
+  padding-bottom: 1em;
 }
 
-.program-container { 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1em;
-    // font-family: "Bebas Neue", sans-serif;
-    font-family: sans-serif;
-    color: silver;
-    border-bottom: 2px solid silver;
+.program-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em;
+  // font-family: "Bebas Neue", sans-serif;
+  font-family: sans-serif;
+  color: silver;
+  border-bottom: 2px solid silver;
 }
 
-.program-container img { 
-    width: 40em;
-    border-radius: 5%;
+.program-container img {
+  width: 40em;
+  border-radius: 5%;
 }
 
-.program-container p { 
-    font-family: sans-serif;
-    font-size: 1.1rem;
-    text-align: center;
-    max-width: 40em;
-    color: silver;
-    margin: 0 auto;
-    padding: 0.5em;
-
+.program-container p {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 40em;
+  color: silver;
+  margin: 0 auto;
+  padding: 0.5em;
 }
 
-.program-description-container h1 { 
-    font-size: 3rem;
-    padding: 0.2em;
-    color: white;
-    font-weight: bold;
+.program-description-container h1 {
+  font-size: 3rem;
+  padding: 0.2em;
+  color: white;
+  font-weight: bold;
 }
 
-.program-detail-list-container { 
+.program-detail-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.program-description-container {
+  text-align: center;
+}
+
+.program-detail-list-container h3 {
+  font-weight: bold;
+  color: white;
+}
+
+.recovery-room-header-styles {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 3rem;
+}
+
+#normatech-img-programs {
+  width: 20em;
+}
+
+@media (max-width: 1370px) {
+  .program-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
-    text-align: left;
-    color: white;
-    font-weight: bold;
+  }
+
+  .programs-content-wrapper h3 {
     max-width: 30em;
     margin: 0 auto;
+  }
 }
 
-.program-description-container { 
-    text-align: center;
+@media (max-width: 1020px) {
+  .programs-content-wrapper h3 {
+    font-size: 1.2rem;
+  }
 }
 
-.program-detail-list-container h3 { 
-    font-weight: bold;
-    color: white;
+@media (max-width: 760px) {
+  .program-container p,
+  .program-detail-list-container,
+  .programs-content-wrapper h3 {
+    font-size: 0.9rem;
+  }
+
+  .program-description-container h1 {
+    font-size: 2rem;
+  }
+
+  .program-container img {
+    width: 27em;
+  }
 }
 
-.recovery-room-header-styles { 
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-    padding: 0.5em;
-    font-size: 3rem;
-}
-
-#normatech-img-programs { 
-    width: 20em;
-}
-
-@media (max-width: 1370px) { 
-    .program-container { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .programs-content-wrapper h3 { 
-        max-width: 30em;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 1020px) { 
-    .programs-content-wrapper h3 { 
-        font-size: 1.2rem;
-    }
-}
-
-@media (max-width: 760px) { 
-    .program-container p,
-    .program-detail-list-container,
-    .programs-content-wrapper h3 { 
-        font-size: 0.9rem;
-    }
-
-    .program-description-container h1 { 
-        font-size: 2rem;
-    }
-
-    .program-container img { 
-        width: 27em;
-    }
-}
-
-@media (max-width: 450px) { 
-    .program-container img { 
-        width: 21em;
-    }
+@media (max-width: 450px) {
+  .program-container img {
+    width: 21em;
+  }
 }
