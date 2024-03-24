@@ -8,7 +8,7 @@ This project aimed to enhance my local jiu-jitsu school's website through a comp
   <li>Explored CSS animations and implemented animations triggered by focus</li>
 <li>Utilized Bootstrap components for enhanced UI design</li>
 <li>Mastered the useRef hook in ReactJS for efficient DOM manipulation</li>
-<li>Gained further practice and experience with react hooks such as useStat and useEffect</li>
+<li>Gained further practice and experience with react hooks such as useState and useEffect</li>
 <li>Implemented React Router for seamless navigation across components</li>
 <li>Applied responsive design principles for optimal performance on various devices</li>
 <li>Expanded flexbox and CSS expertise by crafting intricate layouts with multiple flex containers</li>
