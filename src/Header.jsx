@@ -1,10 +1,10 @@
 import React from "react";
 import vaultBjjLogo from "../assets/logo.png";
 // import instaLogo from "../assets/ig-image-transparent.png";
-import instaLogo from "../assets/instagram-svgrepo-com.svg"
+import instaLogo from "../assets/larger-insta-icon.svg"
 // import fbLogo from "../assets/fb-image-transparent.png";
 // import fbLogo from "../assets/facebook-svgrepo-com.svg"
-import fbLogo from "../assets/facebook-svgrepo-com.svg"
+import fbLogo from "../assets/larger-fb-logo.svg"
 import { Link, Outlet, useSearchParams } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import coloredFbLogo from "../assets/colored-fb-logo.svg"
@@ -22,7 +22,7 @@ export default function Header() {
         <Link to="/" className="header-link">Home</Link>
         </button>
         <button>
-          <Link to="/AboutUsComponent" className="header-link">About</Link>
+          <Link to="/AboutUsComponent" className="header-link">Story</Link>
         </button>
         <button>
         <Link to="/Schedule" className="header-link">Schedule</Link>
