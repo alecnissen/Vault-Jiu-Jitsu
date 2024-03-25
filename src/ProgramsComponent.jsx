@@ -23,6 +23,7 @@ import coachMattPhoto from "../assets/matt-kelley-vault-img.jpg";
 import coachJudahPhoto from "../assets/judah-img-vault.webp";
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
+import FooterContent from "./FooterContent";
 
 export default function ProgramsComponent() {
   const location = useLocation();
@@ -570,6 +571,7 @@ export default function ProgramsComponent() {
           </div>
         </div>
       </div>
+      <FooterContent></FooterContent>
     </>
   );
 }

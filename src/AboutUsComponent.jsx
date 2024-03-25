@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import vaultFamilyImg from "../assets/vault-bjj-family-portriat.jpg";
 import Header2 from "./Header2";
+import FooterContent from "./FooterContent";
 
 export default function AboutUsComponent() {
   return (
@@ -26,6 +27,7 @@ export default function AboutUsComponent() {
           thrive!
         </div>
       </div>
+      <FooterContent></FooterContent>
     </>
   );
 }

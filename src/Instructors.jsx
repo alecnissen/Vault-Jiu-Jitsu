@@ -6,6 +6,7 @@ import coachSabrinaPhoto from "../assets/matt-sabrina-vault-img.jpg";
 import bjjPhoto from "../assets/hero-bg.jpg";
 import coachMattPhoto from "../assets/matt-kelley-vault-img.jpg";
 import coachJudahPhoto from "../assets/judah-img-vault.webp";
+import FooterContent from "./FooterContent";
 
 export default function Instructors() {
   return (
@@ -143,7 +144,7 @@ export default function Instructors() {
                 </li>
                 <li>Blue Belt under Brain Rago from Gracie Humaita</li>
                 <li>Youth Instructor</li>
-                <li>Board certified Psychologist</li>
+                {/* <li>Board certified Psychologist</li> */}
               </ul>
             </div>
 
@@ -194,6 +195,7 @@ export default function Instructors() {
           </div>
         </div>
       </div>
+      <FooterContent></FooterContent>
     </>
   );
 }

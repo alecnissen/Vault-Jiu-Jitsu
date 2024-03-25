@@ -3,6 +3,8 @@ import Header2 from "./Header2";
 import vaultOutsideImg from "../assets/vault-outside-img.jpg";
 import instaLogo from "../assets/instagram-svgrepo-com.svg";
 import fbLogo from "../assets/facebook-svgrepo-com.svg";
+import FooterContent from "./FooterContent";
+import ContactForm from "./ContactForm";
 
 export default function ContactFAQ() {
   return (
@@ -99,6 +101,8 @@ export default function ContactFAQ() {
           
         </div>
       </div>
+      <ContactForm></ContactForm>
+      <FooterContent></FooterContent>
     </>
   );
 }

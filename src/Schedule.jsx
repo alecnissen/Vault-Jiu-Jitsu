@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterContent from './FooterContent'
 import Header2 from './Header2'
 
 export default function Schedule() {
@@ -124,6 +125,7 @@ export default function Schedule() {
     </div> */}
 
     </div>
+    <FooterContent></FooterContent>
     </>
   )
 }
