@@ -13,7 +13,7 @@ import { useState, useRef, useEffect } from "react";
 import coldPlungeImg from "../assets/cold-plunge.jpeg";
 import saunaImg from "../assets/vault-sauna-img-2.jpeg"
 import redLightTherapyImg from "../assets/IMG_2436.jpeg"
-import normaTechImg from "../assets/IMG_2437.jpeg"
+import normaTechImg from "../assets/updatedNormaTecImg.jpeg"
 import { Link } from "react-router-dom";
 // import { useState, useEffect, useRef } from "react";
 

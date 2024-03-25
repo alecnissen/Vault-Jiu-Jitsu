@@ -10,7 +10,7 @@ import coldPlungeImg from "../assets/cold-plunge.jpeg";
 import saunaImg from "../assets/vault-sauna-img-2.jpeg";
 // import redLightTherapyImg from "../assets/red-light-img-2.jpeg";
 import redLightTherapyImg from "../assets/IMG_2436.jpeg"
-import normaTechProgramsComponent from "../assets/IMG_2437.jpeg";
+import normaTechProgramsComponent from "../assets/updatedNormaTecImg.jpeg";
 
 import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
 // import saunaImg from "../assets/vault-sauna-img.jpg";
