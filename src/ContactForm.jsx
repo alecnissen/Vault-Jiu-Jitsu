@@ -28,6 +28,8 @@ export default function ContactForm() {
         <input type='number' placeholder=''></input>
         </div>
 
+      
+
         <div className='label-input-pair-msg'>
         <label>Message to Owner</label>
         <textarea placeholder=''></textarea>
