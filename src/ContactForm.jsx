@@ -13,6 +13,9 @@ export default function ContactForm() {
 
         <div className='contact-form-input-container'> 
 
+
+      <div className='contact-form-name-email-phone-container'>
+
         <div className='label-input-pair-name'>
         <label>Full Name</label>
         <input type='text' placeholder=''></input>
@@ -28,7 +31,7 @@ export default function ContactForm() {
         <input type='number' placeholder=''></input>
         </div>
 
-      
+        </div>
 
         <div className='label-input-pair-msg'>
         <label>Message to Owner</label>
