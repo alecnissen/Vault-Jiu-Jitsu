@@ -2,8 +2,8 @@ import React from 'react'
 import vaultBjjLogo from "../assets/logo.png";
 // import instaLogo from "../assets/ig-image-transparent.png";
 // import fbLogo from "../assets/fb-image-transparent.png";
-import instaLogo from "../assets/instagram-svgrepo-com.svg"
-import fbLogo from "../assets/facebook-svgrepo-com.svg"
+import instaLogo from "../assets/larger-insta-icon.svg"
+import fbLogo from "../assets/larger-fb-logo.svg"
 import { Link, Outlet, useSearchParams } from 'react-router-dom';
 
 export default function Header2() {
