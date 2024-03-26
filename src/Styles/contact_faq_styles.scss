@@ -14,7 +14,7 @@
 
 .address-container h1 { 
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .vault-outsideimg-styles { 
@@ -31,10 +31,12 @@
 
 }
 
-// .contact-icons-links-container { 
-//     display: flex;
-//     justify-content: center;
-// }
+.contact-icons-links-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
 
 .contact-icons-links-container img { 
     width: 3em;
@@ -120,11 +122,14 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
+        gap: 1.5em;
     }
 
     .vault-outsideimg-styles { 
         width: 24em;
     }
+
+
 }
 
 @media (max-width: 430px) { 

@@ -1,8 +1,8 @@
 import React from "react";
 import Header2 from "./Header2";
 import vaultOutsideImg from "../assets/vault-outside-img.jpg";
-import instaLogo from "../assets/instagram-svgrepo-com.svg";
-import fbLogo from "../assets/facebook-svgrepo-com.svg";
+import instaLogo from "../assets/larger-insta-icon.svg"
+import fbLogo from "../assets/larger-fb-logo.svg"
 import FooterContent from "./FooterContent";
 import ContactForm from "./ContactForm";
 
