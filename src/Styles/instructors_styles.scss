@@ -40,6 +40,7 @@
     font-family: sans-serif;
     color: silver;
     border-bottom: 2px solid silver;
+    opacity: 0;
 }
 
 .coach-container img { 
@@ -93,6 +94,26 @@
 .bio-description-container { 
     text-align: center;
 }
+
+
+
+.coach-container.focused { 
+    animation: slideIn 1s ease;
+    opacity: 1;
+}
+
+
+@keyframes slideIn { 
+    0% { 
+        transform: translateX(-150em);
+    } 
+
+    100% { 
+        transform: translateX(0);
+    }
+
+}
+
 
 @media (max-width: 1213px) { 
     .coach-container { 

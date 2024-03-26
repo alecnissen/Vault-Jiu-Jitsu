@@ -8,7 +8,48 @@ import coachMattPhoto from "../assets/matt-kelley-vault-img.jpg";
 import coachJudahPhoto from "../assets/judah-img-vault.webp";
 import FooterContent from "./FooterContent";
 
+import { useEffect, useRef, useState } from "react";
+
 export default function Instructors() {
+  const [showCoach1, setShowCoach1] = useState(false);
+  const [showCoach2, setShowCoach2] = useState(false);
+  // Add more state variables for other coaches as needed...
+
+  const observer = useRef(null);
+  const instructorsRef = useRef([]);
+
+  useEffect(() => {
+    observer.current = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const coachId = entry.target.getAttribute("data-coach-id");
+          switch (coachId) {
+            case "coach1":
+              setShowCoach1(true);
+              break;
+            case "coach2":
+              setShowCoach2(true);
+              break;
+            // Add cases for other coaches...
+            default:
+              break;
+          }
+          observer.current.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.50 });
+
+    instructorsRef.current.forEach((instructor) => {
+      observer.current.observe(instructor);
+    });
+
+    return () => {
+      instructorsRef.current.forEach((instructor) => {
+        observer.current.unobserve(instructor);
+      });
+    };
+  }, []);
+
   return (
     <>
       <Header2></Header2>
@@ -21,7 +62,15 @@ export default function Instructors() {
           jitsu jounrney.{" "}
         </h3>
 
-        <div className="coach-container">
+        {/* <div className="coach-container"> */}
+
+        <div
+          className={`coach-container ${showCoach1 ? "focused" : ""}`}
+          ref={(ref) => {
+            instructorsRef.current.push(ref);
+          }}
+          data-coach-id="coach1"
+        >
           <img src={coachJulianPhoto}></img>
 
           <div className="bio-description-container">
@@ -53,7 +102,16 @@ export default function Instructors() {
           </div>
         </div>
 
-        <div className="coach-container">
+        {/* <div className="coach-container"> */}
+
+        <div
+          className={`coach-container ${showCoach2 ? "focused" : ""}`}
+          ref={(ref) => {
+            instructorsRef.current.push(ref);
+          }}
+          data-coach-id="coach2"
+        >
+
           <img src={coachAdalinaPhoto}></img>
 
           <div className="bio-description-container">
