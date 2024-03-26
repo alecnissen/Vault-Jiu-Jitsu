@@ -13,6 +13,9 @@ import { useEffect, useRef, useState } from "react";
 export default function Instructors() {
   const [showCoach1, setShowCoach1] = useState(false);
   const [showCoach2, setShowCoach2] = useState(false);
+  const [showCoach3, setShowCoach3] = useState(false);
+  const [showCoach4, setShowCoach4] = useState(false);
+  const [showCoach5, setShowCoach5] = useState(false);
   // Add more state variables for other coaches as needed...
 
   const observer = useRef(null);
@@ -30,7 +33,17 @@ export default function Instructors() {
             case "coach2":
               setShowCoach2(true);
               break;
+              case "coach3":
+              setShowCoach3(true);
+              break;
+              case "coach4":
+                setShowCoach4(true);
+                break;
+                case "coach5":
+                  setShowCoach5(true);
+                  break;
             // Add cases for other coaches...
+
             default:
               break;
           }
@@ -141,7 +154,22 @@ export default function Instructors() {
           </div>
         </div>
 
-        <div className="coach-container">
+
+
+
+
+        {/* <div className="coach-container"> */}
+
+        <div
+          className={`coach-container ${showCoach3 ? "focused" : ""}`}
+          ref={(ref) => {
+            instructorsRef.current.push(ref);
+          }}
+          data-coach-id="coach3"
+        >
+
+
+
           <img src={coachSabrinaPhoto}></img>
 
           <div className="bio-description-container">
@@ -176,7 +204,20 @@ export default function Instructors() {
           </div>
         </div>
 
-        <div className="coach-container">
+        {/* <div className="coach-container"> */}
+
+
+        <div
+          className={`coach-container ${showCoach4 ? "focused" : ""}`}
+          ref={(ref) => {
+            instructorsRef.current.push(ref);
+          }}
+          data-coach-id="coach4"
+        >
+
+
+
+
           <img src={bjjPhoto}></img>
 
           <div className="bio-description-container">
@@ -214,7 +255,24 @@ export default function Instructors() {
           </div>
         </div>
 
-        <div className="coach-container">
+
+
+
+
+        {/* <div className="coach-container"> */}
+
+        <div
+          className={`coach-container ${showCoach5 ? "focused" : ""}`}
+          ref={(ref) => {
+            instructorsRef.current.push(ref);
+          }}
+          data-coach-id="coach5"
+        >
+
+
+
+
+
           <img src={coachJudahPhoto}></img>
 
           <div className="bio-description-container">
