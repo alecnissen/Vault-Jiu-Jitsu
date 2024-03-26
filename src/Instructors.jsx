@@ -64,67 +64,74 @@ export default function Instructors() {
   //   };
   // }, []);
 
-  const [showCoach1, setShowCoach1] = useState(false);
-  const [showCoach2, setShowCoach2] = useState(false);
-  const [showCoach3, setShowCoach3] = useState(false);
-  const [showCoach4, setShowCoach4] = useState(false);
-  const [showCoach5, setShowCoach5] = useState(false);
-  // Add more state variables for other coaches as needed...
 
-  const observer = useRef(null);
-  const instructorsRef = useRef([]);
 
-  useEffect(() => {
-    observer.current = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const coachId = entry.target.getAttribute("data-coach-id");
-          switch (coachId) {
-            case "coach1":
-              setShowCoach1(true);
-              break;
-            case "coach2":
-              setShowCoach2(true);
-              break;
-            case "coach3":
-              setShowCoach3(true);
-              break;
-            case "coach4":
-              setShowCoach4(true);
-              break;
-            case "coach5":
-              setShowCoach5(true);
-              break;
-            // Add cases for other coaches...
-            default:
-              break;
-          }
-          observer.current.unobserve(entry.target);
-        }
-      });
-    }, { threshold: getThreshold() });
 
-    instructorsRef.current.forEach((instructor) => {
-      observer.current.observe(instructor);
-    });
+  // const [showCoach1, setShowCoach1] = useState(false);
+  // const [showCoach2, setShowCoach2] = useState(false);
+  // const [showCoach3, setShowCoach3] = useState(false);
+  // const [showCoach4, setShowCoach4] = useState(false);
+  // const [showCoach5, setShowCoach5] = useState(false);
 
-    return () => {
-      instructorsRef.current.forEach((instructor) => {
-        observer.current.unobserve(instructor);
-      });
-    };
-  }, []);
+  // const instructorsRef = useRef([]);
 
-  // Function to determine threshold based on screen width
-  const getThreshold = () => {
-    if (window.innerWidth <= 820) {
-      return 0.50; // Adjust threshold for tablet (820px)
-    } else if (window.innerWidth <= 1024) {
-      return 0.90; // Adjust threshold for larger tablets (1024px)
-    } else {
-      return 0.50; // Default threshold for other screen sizes
-    }
-  };
+  // const observers = useRef([]);
+
+  // useEffect(() => {
+  //   const createObserver = (coachId) => {
+  //     const observer = new IntersectionObserver((entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           switch (coachId) {
+  //             case "coach1":
+  //               setShowCoach1(true);
+  //               break;
+  //             case "coach2":
+  //               setShowCoach2(true);
+  //               break;
+  //             case "coach3":
+  //               setShowCoach3(true);
+  //               break;
+  //             case "coach4":
+  //               setShowCoach4(true);
+  //               break;
+  //             case "coach5":
+  //               setShowCoach5(true);
+  //               break;
+  //             default:
+  //               break;
+  //           }
+  //           observer.unobserve(entry.target);
+  //         }
+  //       });
+  //     }, { threshold: getThreshold() });
+
+  //     return observer;
+  //   };
+
+  //   const coachIds = ["coach1", "coach2", "coach3", "coach4", "coach5"];
+  //   coachIds.forEach((coachId) => {
+  //     const observer = createObserver(coachId);
+  //     observers.current.push(observer);
+  //   });
+
+  //   return () => {
+  //     observers.current.forEach((observer) => {
+  //       observer.disconnect();
+  //     });
+  //   };
+  // }, []);
+
+  // // Function to determine threshold based on screen width
+  // const getThreshold = () => {
+  //   if (window.innerWidth <= 820) {
+  //     return 0.50; // Adjust threshold for tablet (820px)
+  //   } else if (window.innerWidth <= 1024) {
+  //     return 0.90; // Adjust threshold for larger tablets (1024px)
+  //   } else {
+  //     return 0.50; // Default threshold for other screen sizes
+  //   }
+  // };
 
   return (
     <>
@@ -138,15 +145,15 @@ export default function Instructors() {
           jitsu jounrney.{" "}
         </h3>
 
-        {/* <div className="coach-container"> */}
+        <div className="coach-container">
 
-        <div
+        {/* <div
           className={`coach-container ${showCoach1 ? "focused" : ""}`}
           ref={(ref) => {
             instructorsRef.current.push(ref);
           }}
           data-coach-id="coach1"
-        >
+        > */}
           <img src={coachJulianPhoto}></img>
 
           <div className="bio-description-container">
@@ -178,15 +185,15 @@ export default function Instructors() {
           </div>
         </div>
 
-        {/* <div className="coach-container"> */}
+        <div className="coach-container">
 
-        <div
+        {/* <div
           className={`coach-container ${showCoach2 ? "focused" : ""}`}
           ref={(ref) => {
             instructorsRef.current.push(ref);
           }}
           data-coach-id="coach2"
-        >
+        > */}
 
           <img src={coachAdalinaPhoto}></img>
 
@@ -221,15 +228,15 @@ export default function Instructors() {
 
 
 
-        {/* <div className="coach-container"> */}
+        <div className="coach-container">
 
-        <div
+        {/* <div
           className={`coach-container ${showCoach3 ? "focused" : ""}`}
           ref={(ref) => {
             instructorsRef.current.push(ref);
           }}
           data-coach-id="coach3"
-        >
+        > */}
 
 
 
@@ -267,16 +274,16 @@ export default function Instructors() {
           </div>
         </div>
 
-        {/* <div className="coach-container"> */}
+        <div className="coach-container">
 
 
-        <div
+        {/* <div
           className={`coach-container ${showCoach4 ? "focused" : ""}`}
           ref={(ref) => {
             instructorsRef.current.push(ref);
           }}
           data-coach-id="coach4"
-        >
+        > */}
 
 
 
@@ -322,15 +329,15 @@ export default function Instructors() {
 
 
 
-        {/* <div className="coach-container"> */}
+        <div className="coach-container">
 
-        <div
+        {/* <div
           className={`coach-container ${showCoach5 ? "focused" : ""}`}
           ref={(ref) => {
             instructorsRef.current.push(ref);
           }}
           data-coach-id="coach5"
-        >
+        > */}
 
 
 
