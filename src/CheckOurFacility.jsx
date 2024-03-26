@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import vaultFacilityImg1 from "../assets/vault-facility-img-1.jpg";
 import vaultFacilityImg2 from "../assets/vault-facility-img-2.jpg";
 import vaultFacilityImg3 from "../assets/vault-interior-img-3.jpg";
+import vaultFacilityImg4 from "../assets/vault-facility-img-5.jpg"
 
 export default function CheckOurFacility() {
   return (
@@ -31,6 +32,13 @@ export default function CheckOurFacility() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption> */}
         </Carousel.Item>
+        {/* <Carousel.Item>
+        
+          <div className="img-container">
+            <img src={vaultFacilityImg4} className="carousel-img" id="vault-darker-img"></img>
+          </div>
+          
+        </Carousel.Item> */}
         <Carousel.Item>
           <div className="img-container">
             <img src={vaultFacilityImg3} className="carousel-img"></img>
