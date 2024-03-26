@@ -78,7 +78,7 @@ export default function Instructors() {
               </ul>
             </div>
 
-            <p>Favorite submission: Bear Trap</p>
+            <p>Favorite submission: Guillotine</p>
             <p>"I love to watch our students grow and learn new skills!"</p>
           </div>
         </div>
