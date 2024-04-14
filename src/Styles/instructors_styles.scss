@@ -102,6 +102,50 @@
     opacity: 1;
 }
 
+  
+//   /* Apply the animation to the list items */
+//   .coach-list li {
+//     animation: fadeInLiElements 1s ease forwards;
+//     // opacity: 0;
+//   }
+  
+//   /* Add a delay for each list item */
+//   .coach-list.visible li:nth-child(1) {
+//     animation-delay: 0.5s;
+//   }
+//   .coach-list.visible li:nth-child(2) {
+//     animation-delay: 1s; /* Adjust the delay as needed */
+//   }
+
+
+//   .coach-list.visible li:nth-child(3) {
+//     animation-delay: 1.5s;
+//   }
+//   .coach-list.visible li:nth-child(4) {
+//     animation-delay: 2s; /* Adjust the delay as needed */
+//   }
+
+
+
+
+  /* Define the fade-in animation */
+@keyframes fadeInLiElements {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: You can add a vertical offset */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  /* Add more nth-child selectors for additional list items */
+
+
+
+
 
 @keyframes slideIn { 
     0% { 

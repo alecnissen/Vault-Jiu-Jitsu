@@ -133,6 +133,32 @@ export default function Instructors() {
   //   }
   // };
 
+
+
+  // const [isVisible, setIsVisible] = useState(false);
+  // const listRef = useRef(null);
+
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver((entries) => {
+  //     entries.forEach((entry) => {
+  //       if (entry.isIntersecting) {
+  //         setIsVisible(true);
+  //         observer.unobserve(entry.target);
+  //       }
+  //     });
+  //   }, { threshold: 0.5 });
+
+  //   observer.observe(listRef.current);
+
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, []);
+
+
+
+
+
   return (
     <>
       <Header2></Header2>
@@ -169,7 +195,10 @@ export default function Instructors() {
             </p>
 
             <div className="accolades-list-container">
+
               <ul>
+              {/* <ul className={`coach-list ${isVisible ? 'visible' : ''}`} ref={listRef}> */}
+
                 <li>Black Belt under Bruno Tostes from Renzo Gracie Latham</li>
                 <li>Radius Invitational Chamption</li>
                 <li>Rise 3 Invitational Bronze </li>
