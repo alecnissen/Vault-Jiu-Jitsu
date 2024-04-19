@@ -133,3 +133,13 @@
     width: 21em;
   }
 }
+
+@media (max-width: 350px) {
+  .program-container img {
+    width: 18em;
+  }
+
+  #normatech-img-programs { 
+    width: 17em;
+  }
+}
