@@ -103,9 +103,21 @@
     }
     .header-btn-container2 button { 
         // font-size: 3.5vw;
-        font-size: 1rem;
+        font-size: 1.2rem;
         // border-right: 1px solid silver;
         // padding: .2em;
         // text-align: center;
+    }
+}
+
+
+@media (max-width: 400px) { 
+    .header-btn-container2 button { 
+        font-size: 0.95rem;
+    }
+
+    .header-btn-container2 { 
+        display: flex;
+        gap: .45em;
     }
 }
