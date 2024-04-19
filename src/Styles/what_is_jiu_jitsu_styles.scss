@@ -119,4 +119,10 @@
     // .what-is-bjj-content-wrapper ul { 
     //     font-size: 1.2rem;
     // }
+} 
+
+@media (max-width: 365px) { 
+    .what-is-bjj-content-wrapper img { 
+        width: 18em;
+    }
 }
