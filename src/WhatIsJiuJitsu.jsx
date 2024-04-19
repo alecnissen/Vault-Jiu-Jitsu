@@ -47,13 +47,13 @@ export default function WhatIsJiuJitsu() {
     <h1 className='benefits-of-bjj-header-text'>Benefits of Jiu Jitsu</h1>
 
     <ul className={`bjj-benefits-list ${show ? "focused" : ""}`} ref={listWrapper}>
-      <li>Increase Physical and Mental strength</li>
+      <li>Increase physical and mental strength</li>
       <li>Increase muscular endurance and aerobic capacity</li>
       <li>Improved self-confidence and discipline</li>
       <li>Improved problem solving ability</li>
       <li>Reduced stress levels</li>
       <li>Community and bonds</li>
-      <li>Skill development and Personal Growth</li>
+      <li>Skill development and personal growth</li>
     </ul>
     
     </div>

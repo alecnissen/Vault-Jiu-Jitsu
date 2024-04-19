@@ -52,7 +52,19 @@ export default function Header() {
 }
 
 
+// 320px responsiveness, 
 
+// homepage 
+
+// check the header first, decrease the gap and the font size 
+
+// decrease the size of the cards slightly, 
+
+// contact/faq 
+
+// decrease the font size, so the first block's text can fit all the way
+
+// 
 
 
 
