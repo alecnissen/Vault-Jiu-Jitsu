@@ -12,7 +12,7 @@ const EmailSubscriptionForm = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        axios.post('http://localhost:3001/subscription', { email })
+        axios.post('https://vault-jiu-jitsu-api.fly.dev/subscription', { email })
             .then((response) => {
                 console.log(response.status, response.data);
                 setSubmitted(true);

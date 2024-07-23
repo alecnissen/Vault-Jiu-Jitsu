@@ -37,7 +37,7 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('http://localhost:3001/contact', formData)
+    axios.post('https://vault-jiu-jitsu-api.fly.dev/contact', formData)
       .then((response) => {
         console.log(response.status, response.data);
 
