@@ -7,6 +7,7 @@ import instaLogo from "../assets/larger-insta-icon.svg";
 
 import fbLogo from "../assets/larger-fb-logo.svg";
 import Trademark from "./Trademark";
+import EmailSubscriptionForm from "./EmailSubForm";
 
 
 
@@ -30,12 +31,7 @@ export default function FooterContent() {
 
     </div>
 
-        <div className="footer-label-input-pair-email"> 
-      <h5>Subscribe to our email for exclusive news and offers!</h5>
-            <label>Email Address</label>
-            <input type="text"></input>
-            <button>Subscribe</button>
-        </div>
+     <EmailSubscriptionForm />
 
     </div>
 
