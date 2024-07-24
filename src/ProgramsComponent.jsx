@@ -8,19 +8,8 @@ import compClassImg from "../assets/vault-comp-class-img.jpeg";
 import openMatImg from "../assets/vault-open-mat.jpeg";
 import coldPlungeImg from "../assets/cold-plunge.jpeg";
 import saunaImg from "../assets/vault-sauna-img-2.jpeg";
-// import redLightTherapyImg from "../assets/red-light-img-2.jpeg";
-import redLightTherapyImg from "../assets/IMG_2436.jpeg"
+import redLightTherapyImg from "../assets/IMG_2436.jpeg";
 import normaTechProgramsComponent from "../assets/updatedNormaTecImg.jpeg";
-
-import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
-// import saunaImg from "../assets/vault-sauna-img.jpg";
-
-import coachJulianPhoto from "../assets/julian-photo-for-vault-website.jpg";
-import coachAdalinaPhoto from "../assets/adalina-vault-website-img.jpg";
-import coachSabrinaPhoto from "../assets/matt-sabrina-vault-img.jpg";
-import bjjPhoto from "../assets/hero-bg.jpg";
-import coachMattPhoto from "../assets/matt-kelley-vault-img.jpg";
-import coachJudahPhoto from "../assets/judah-img-vault.webp";
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 import FooterContent from "./FooterContent";
@@ -111,7 +100,6 @@ export default function ProgramsComponent() {
               </ul>
             </div>
 
-            {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
               "My favorite thing about nogi class is the instruction! Julian has
               an excellent way of breaking down complex moves into something
@@ -173,7 +161,6 @@ export default function ProgramsComponent() {
               </ul>
             </div>
 
-            {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
               "The coolest thing about the Gi classes is the difference from
               NoGi! I find it much more challenging!" -Christian
@@ -223,7 +210,6 @@ export default function ProgramsComponent() {
               </ul>
             </div>
 
-            {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
               "The coaches always make class fun, and I am always tired after! I
               always learn something new!" -Tyler
@@ -277,7 +263,6 @@ export default function ProgramsComponent() {
               </ul>
             </div>
 
-            {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
               "The atmosphere in our classes is awesome! Very positive and
               encouraging. We will help you grow your confidence, get in
@@ -330,7 +315,6 @@ export default function ProgramsComponent() {
               </ul>
             </div>
 
-            {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
               "In my opinion this is the best class of the week! I love the
               positional sparring and drilling competition based scenarios. Plus
@@ -377,7 +361,6 @@ export default function ProgramsComponent() {
               </ul>
             </div>
 
-            {/* <p>Favorite submission: Rear naked choke</p> */}
             <p>
               "It's just an awesome oppournity to meet new people, and
               experience new styles of Jiu-Jitsu. Sundays at the Vault are the
@@ -424,13 +407,6 @@ export default function ProgramsComponent() {
                 </li>
               </ul>
             </div>
-
-            {/* <p>Favorite submission: Rear naked choke</p> */}
-            {/* <p>
-              "It's just an awesome oppournity to meet new people, and
-              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
-              place to be!" -Ellis
-            </p> */}
           </div>
         </div>
 
@@ -464,13 +440,6 @@ export default function ProgramsComponent() {
                 </li>
               </ul>
             </div>
-
-            {/* <p>Favorite submission: Rear naked choke</p> */}
-            {/* <p>
-              "It's just an awesome oppournity to meet new people, and
-              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
-              place to be!" -Ellis
-            </p> */}
           </div>
         </div>
 
@@ -508,18 +477,14 @@ export default function ProgramsComponent() {
                 <li>Supports mood regulation and may improve sleep quality</li>
               </ul>
             </div>
-
-            {/* <p>Favorite submission: Rear naked choke</p> */}
-            {/* <p>
-              "It's just an awesome oppournity to meet new people, and
-              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
-              place to be!" -Ellis
-            </p> */}
           </div>
         </div>
 
         <div className="program-container">
-          <img src={normaTechProgramsComponent} id="normatech-img-programs"></img>
+          <img
+            src={normaTechProgramsComponent}
+            id="normatech-img-programs"
+          ></img>
 
           <div
             className="program-description-container"
@@ -561,13 +526,6 @@ export default function ProgramsComponent() {
                 </li>
               </ul>
             </div>
-
-            {/* <p>Favorite submission: Rear naked choke</p> */}
-            {/* <p>
-              "It's just an awesome oppournity to meet new people, and
-              experience new styles of Jiu-Jitsu. Sundays at the Vault are the
-              place to be!" -Ellis
-            </p> */}
           </div>
         </div>
       </div>

@@ -1,34 +1,18 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-// import coldPlungeImg from "../assets/20230424-EA0A3551_edited.webp";
-
-// import coldPlungeImg from "../assets/vault-cold-plunge-img.webp";
-// import saunaImg from "../assets/vault-sauna-img.jpg";
-
-import iceImg from "../assets/scott-rodgerson-PteeDvACFak-unsplash.jpg";
-import redlightImg from "../assets/pexels-johannes-plenio-1996035.jpg";
 import { useState, useRef, useEffect } from "react";
-
 import coldPlungeImg from "../assets/cold-plunge.jpeg";
-import saunaImg from "../assets/vault-sauna-img-2.jpeg"
-import redLightTherapyImg from "../assets/IMG_2436.jpeg"
-import normaTechImg from "../assets/updatedNormaTecImg.jpeg"
+import saunaImg from "../assets/vault-sauna-img-2.jpeg";
+import redLightTherapyImg from "../assets/IMG_2436.jpeg";
+import normaTechImg from "../assets/updatedNormaTecImg.jpeg";
 import { Link } from "react-router-dom";
-// import { useState, useEffect, useRef } from "react";
 
 export default function RecoveryRoom() {
-
   const recoveryRoomContentWrapper = useRef(null);
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    // const options = {
-    //   root: null,
-    //   rootMargin: "0px",
-    //   threshold: 0.2,
-    // };
-
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -49,11 +33,11 @@ export default function RecoveryRoom() {
     };
   }, []);
 
-
-
   return (
-    // <div className="recovery-room-content-wrapper">
-      <div className={`recovery-room-content-wrapper ${show ? "focused" : ""}`} ref={recoveryRoomContentWrapper}>
+    <div
+      className={`recovery-room-content-wrapper ${show ? "focused" : ""}`}
+      ref={recoveryRoomContentWrapper}
+    >
       <h1>Our Recovery Room</h1>
 
       <p className="recovery-room-text">
@@ -87,7 +71,9 @@ export default function RecoveryRoom() {
                 health.
               </Card.Text>
               <Link to="ProgramsComponent#cold-plunge">
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+                <Button variant="primary" className="recovery-learn-more-btn">
+                  Learn More
+                </Button>
               </Link>
             </Card.Body>
           </Card>
@@ -111,7 +97,9 @@ export default function RecoveryRoom() {
                 mind.
               </Card.Text>
               <Link to="ProgramsComponent#sauna">
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+                <Button variant="primary" className="recovery-learn-more-btn">
+                  Learn More
+                </Button>
               </Link>
             </Card.Body>
           </Card>
@@ -119,7 +107,11 @@ export default function RecoveryRoom() {
 
         <div className="recovery-card-group-2">
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={redLightTherapyImg} className="card-img" />
+            <Card.Img
+              variant="top"
+              src={redLightTherapyImg}
+              className="card-img"
+            />
             <Card.Body className="recovery-card-body">
               <Card.Title className="recovery-card-header">
                 Red Light Therapy
@@ -135,13 +127,20 @@ export default function RecoveryRoom() {
                 addressing various health concerns.
               </Card.Text>
               <Link to="ProgramsComponent#red-light">
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+                <Button variant="primary" className="recovery-learn-more-btn">
+                  Learn More
+                </Button>
               </Link>
             </Card.Body>
           </Card>
 
           <Card className="recovery-card-container">
-            <Card.Img variant="top" src={normaTechImg} className="card-img" id="normatech-img" />
+            <Card.Img
+              variant="top"
+              src={normaTechImg}
+              className="card-img"
+              id="normatech-img"
+            />
             <Card.Body className="recovery-card-body">
               <Card.Title className="recovery-card-header">
                 Normatech Compression Therapy
@@ -157,7 +156,9 @@ export default function RecoveryRoom() {
                 improve overall performance.
               </Card.Text>
               <Link to="ProgramsComponent#compression">
-              <Button variant="primary" className="recovery-learn-more-btn">Learn More</Button>
+                <Button variant="primary" className="recovery-learn-more-btn">
+                  Learn More
+                </Button>
               </Link>
             </Card.Body>
           </Card>
