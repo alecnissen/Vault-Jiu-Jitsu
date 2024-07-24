@@ -1,11 +1,13 @@
 <h1>About This Project</h1> 
-This project aimed to enhance my local jiu-jitsu school's website through a comprehensive refactor, integrating improved styling, animations, and instructor bios, while showcasing the school's amenities like the sauna and cold plunge. Developed with ReactJS, it provided valuable practice with React hooks such as state, effects, and refs, as well as CSS animations for engaging fade-in and slide-in effects.
+A full stack project aimed to enhance my local jiu-jitsu school's website through a comprehensive refactor, integrating improved styling, animations, and instructor bios, while showcasing the school's amenities like the sauna and cold plunge. Developed with MongoDB, Express.js, ReactJS, Node.js it provided valuable practice with React hooks such as state, effects, and refs, as well as CSS animations for engaging fade-in and slide-in effects.
 
 <br>
 
 <h1>What I learned</h1>
     <ul>
-  <li>Explored CSS animations and implemented animations triggered by focus</li>
+<li>Explored CSS animations and implemented animations triggered by focus</li>
+<li>Acquired hands-on experience with MongoDB for storing form data.</li>
+<li>Using Express Middleware</li>
 <li>Utilized Bootstrap components for enhanced UI design</li>
 <li>Mastered the useRef hook in ReactJS for efficient DOM manipulation</li>
 <li>Gained further practice and experience with react hooks such as useState and useEffect</li>
@@ -17,7 +19,10 @@ This project aimed to enhance my local jiu-jitsu school's website through a comp
 
  <h1>Built With</h1>
 
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -51,9 +56,15 @@ then `npm install` which will install all dependency's and packages.
 
 <img src="assets/RM-vault-class-details.png" style="width: 600px">
 
-- The gymn amenities, such as the cold plunge pictured here, are also available to website visitors. Visitors can read about the equiptments uses and benefits in this section.
+- The gym amenities, such as the cold plunge pictured here, are also available to website visitors. Visitors can read about the equiptments uses and benefits in this section.
 
 <img src="assets/RM-vault-recovery-img.png" style="width: 600px">
+
+- User can fill out contact form and the data will be processed with Node.js, Express.js and the data will be stored in MongoDB.
+<img src="assets/vault-contact-form.png" style="width: 600px">
+
+- User can subscribe to email newsletter. The data will be processed with Node.js, Express.js and the data will be stored in MongoDB.
+<img src="assets/vault-email-sub.png" style="width: 600px">
 
 - The website is mobile responsive and looks great on all screen sizes.
 
