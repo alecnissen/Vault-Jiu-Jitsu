@@ -1,48 +1,37 @@
 import React from "react";
 import vaultBjjLogo from "../assets/logo.png";
 import instaLogo from "../assets/larger-insta-icon.svg";
-
-// import instaLogo from "../assets/ig-image-transparent.png";
-// import fbLogo from "../assets/fb-image-transparent.png";
-
 import fbLogo from "../assets/larger-fb-logo.svg";
 import Trademark from "./Trademark";
 import EmailSubscriptionForm from "./EmailSubForm";
 
-
-
 export default function FooterContent() {
   return (
     <>
-    <div className="footer-content-wrapper">
+      <div className="footer-content-wrapper">
+        <div className="address-subscribe-container">
+          <div className="title-address-phone-container">
+            <h1>The Vault Jiu-Jitsu</h1>
+            <h3 className="footer-address-styles">
+              25 South Morton Ave Morton, PA 19070 US
+            </h3>
+            <h3 className="footer-email-styles">info@vaultbjj.com</h3>
+            <h3 className="footer-phone-styles">610-579-0077</h3>
 
-    <div className="address-subscribe-container">
-    
-    <div className="title-address-phone-container">
-      <h1>The Vault Jiu-Jitsu</h1>
-      <h3 className="footer-address-styles">25 South Morton Ave Morton, PA 19070 US</h3>
-      <h3 className="footer-email-styles">info@vaultbjj.com</h3>
-      <h3 className="footer-phone-styles">610-579-0077</h3>
+            <div className="footer-social-links-container">
+              <img src={instaLogo}></img>
+              <img src={fbLogo}></img>
+            </div>
+          </div>
 
-    <div className="footer-social-links-container"> 
-        <img src={instaLogo}></img>
-        <img src={fbLogo}></img>
-    </div>
+          <EmailSubscriptionForm />
+        </div>
 
-    </div>
-
-     <EmailSubscriptionForm />
-
-    </div>
-
-    <div className="footer-vault-logo-container">
-    <img src={vaultBjjLogo} className="footer-vault-logo"></img>
-    </div>
-
-
-
-    </div>
-    <Trademark></Trademark>
+        <div className="footer-vault-logo-container">
+          <img src={vaultBjjLogo} className="footer-vault-logo"></img>
+        </div>
+      </div>
+      <Trademark></Trademark>
     </>
   );
 }
