@@ -60,10 +60,12 @@ then `npm install` which will install all dependency's and packages.
 
 <img src="assets/RM-vault-recovery-img.png" style="width: 600px">
 
-- User can fill out contact form and the data will be processed with Node.js, Express.js and the data will be stored in MongoDB.
+- User can fill out contact form and the data will be stored in the MongoDB database
 <img src="assets/vault-contact-form.png" style="width: 600px">
 
-- User can subscribe to email newsletter. The data will be processed with Node.js, Express.js and the data will be stored in MongoDB.
+- User can subscribe to email newsletter. The data will be stored in the MongoDB database
+
+- The backend API for this project was created using Node.js, Express.js, and JavaScript
 <img src="assets/vault-email-sub.png" style="width: 600px">
 
 - The website is mobile responsive and looks great on all screen sizes.
