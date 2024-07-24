@@ -7,7 +7,7 @@ A full stack project aimed to enhance my local jiu-jitsu school's website throug
     <ul>
 <li>Explored CSS animations and implemented animations triggered by focus</li>
 <li>Acquired hands-on experience with MongoDB for storing form data.</li>
-<li>Using Express Middleware</li>
+<li>Developed a backend API utilizing Node.js, Express.js, and JavaScript</li>
 <li>Utilized Bootstrap components for enhanced UI design</li>
 <li>Mastered the useRef hook in ReactJS for efficient DOM manipulation</li>
 <li>Gained further practice and experience with react hooks such as useState and useEffect</li>
