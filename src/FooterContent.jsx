@@ -19,8 +19,14 @@ export default function FooterContent() {
             <h3 className="footer-phone-styles">610-579-0077</h3>
 
             <div className="footer-social-links-container">
+              <a href="https://www.instagram.com/vault_bjj/?hl=en" target="_blank">
               <img src={instaLogo}></img>
+              </a>
+
+              <a href="https://www.facebook.com/vaultbjj" target="_blank">
               <img src={fbLogo}></img>
+              </a>
+
             </div>
           </div>
 
