@@ -1,212 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-.instructors-content-wrapper  { 
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    // padding: 1em;
+.instructors-content-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
-.our-instructors-header-text { 
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    padding: 0.5em;
-    font-size: 3rem;
+.our-instructors-header-text {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  padding: 0.5em;
+  font-size: 3rem;
 }
 
-.instructors-content-wrapper h3 { 
-    // font-family: "Bebas Neue", sans-serif;
-    font-family: sans-serif;
-    color: silver;
-    max-width: 40em;
-    margin: 0 auto;
-    // font-weight: bold;
-    font-style: normal;
-    font-size: 1.4rem;
-    text-align: center;
-    // padding: 0.5em;
-    padding-bottom: 2em;
+.instructors-content-wrapper h3 {
+  font-family: sans-serif;
+  color: silver;
+  max-width: 40em;
+  margin: 0 auto;
+  font-style: normal;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-bottom: 2em;
 }
 
-.coach-container { 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1em;
-    // font-family: "Bebas Neue", sans-serif;
-    font-family: sans-serif;
-    color: silver;
-    border-bottom: 2px solid silver;
-    // opacity: 0;
+.coach-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em;
+  font-family: sans-serif;
+  color: silver;
+  border-bottom: 2px solid silver;
 }
 
-.coach-container img { 
-    width: 30em;
-    border-radius: 5%;
+.coach-container img {
+  width: 30em;
+  border-radius: 5%;
 }
 
-.coach-container p { 
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
-    max-width: 40em;
-    color: silver;
-    margin: 0 auto;
-    padding: 0.5em;
+.coach-container p {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 40em;
+  color: silver;
+  margin: 0 auto;
+  padding: 0.5em;
 }
 
-.bio-description-container h1 { 
-    font-size: 3rem;
-    padding: 0.2em;
-    color: white;
-    // font-weight: bold;
+.bio-description-container h1 {
+  font-size: 3rem;
+  padding: 0.2em;
+  color: white;
 }
 
-.accolades-list-container { 
+.accolades-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  max-width: 25em;
+  margin: 0 auto;
+}
+
+.bio-description-container h1 {
+  font-weight: bold;
+}
+
+.bio-description-container {
+  text-align: center;
+}
+
+.coach-container.focused {
+  animation: slideIn 1s ease;
+  opacity: 1;
+}
+
+@keyframes fadeInLiElements {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-150em);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1213px) {
+  .coach-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    text-align: left;
-    color: white;
-    font-weight: bold;
-    
-    max-width: 25em;
-    margin: 0 auto;
-}
-
-// .coach-julian-container ul { 
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-
-// }
-
-.bio-description-container h1 { 
-    font-weight: bold;
-}
-
-.bio-description-container { 
-    text-align: center;
-}
-
-
-
-.coach-container.focused { 
-    animation: slideIn 1s ease;
-    opacity: 1;
-}
-
-  
-//   /* Apply the animation to the list items */
-//   .coach-list li {
-//     animation: fadeInLiElements 1s ease forwards;
-//     // opacity: 0;
-//   }
-  
-//   /* Add a delay for each list item */
-//   .coach-list.visible li:nth-child(1) {
-//     animation-delay: 0.5s;
-//   }
-//   .coach-list.visible li:nth-child(2) {
-//     animation-delay: 1s; /* Adjust the delay as needed */
-//   }
-
-
-//   .coach-list.visible li:nth-child(3) {
-//     animation-delay: 1.5s;
-//   }
-//   .coach-list.visible li:nth-child(4) {
-//     animation-delay: 2s; /* Adjust the delay as needed */
-//   }
-
-
-
-
-  /* Define the fade-in animation */
-@keyframes fadeInLiElements {
-    from {
-      opacity: 0;
-      transform: translateY(20px); /* Optional: You can add a vertical offset */
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
 
-
-  /* Add more nth-child selectors for additional list items */
-
-
-
-
-
-@keyframes slideIn { 
-    0% { 
-        transform: translateX(-150em);
-    } 
-
-    100% { 
-        transform: translateX(0);
-    }
-
+  .instructors-content-wrapper h3 {
+    max-width: 30em;
+    margin: 0 auto;
+  }
 }
 
-
-@media (max-width: 1213px) { 
-    .coach-container { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .instructors-content-wrapper h3 { 
-        max-width: 30em;
-        margin: 0 auto;
-    }
+@media (max-width: 1020px) {
+  .instructors-content-wrapper h3 {
+    font-size: 1.2rem;
+  }
 }
 
+@media (max-width: 760px) {
+  .coach-container p,
+  .accolades-list-container,
+  .instructors-content-wrapper h3 {
+    font-size: 1rem;
+  }
 
-@media (max-width: 1020px) { 
-    .instructors-content-wrapper h3 { 
-        font-size: 1.2rem;
-    }
+  .bio-description-container h1 {
+    font-size: 2rem;
+  }
 }
 
-@media (max-width: 760px) { 
-    .coach-container p,
-    .accolades-list-container,
-    .instructors-content-wrapper h3 { 
-        font-size: 1rem;
-    } 
-
-    .bio-description-container h1 { 
-        font-size: 2rem;
-    }
-
-    // .instructors-content-wrapper h3 { 
-    //     max-width: 35em;
-    //     margin: 0 auto;
-    // }
+@media (max-width: 450px) {
+  .coach-container img {
+    width: 20em;
+  }
 }
 
-
-@media (max-width: 450px) { 
-    .coach-container img { 
-        width: 20em;
-    }
-}
-
-
-@media (max-width: 350px) { 
-    .coach-container img { 
-        width: 17em;
-    }
+@media (max-width: 350px) {
+  .coach-container img {
+    width: 17em;
+  }
 }

@@ -1,128 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-.what-is-bjj-content-wrapper { 
-    // font-family: "Bebas Neue", sans-serif;
-    // font-weight: 400;
-    // font-style: normal;
-    // padding: 3em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1em;
+.what-is-bjj-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1em;
 }
 
-
-.what-is-bjj-content-wrapper h1 { 
-    font-family: "Bebas Neue", sans-serif;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
+.what-is-bjj-content-wrapper h1 {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.what-is-bjj-content-wrapper img { 
-    width: 35em;
-    border-radius: 5%;
-    // padding: 2em;
+.what-is-bjj-content-wrapper img {
+  width: 35em;
+  border-radius: 5%;
 }
 
-.what-is-bjj-content-wrapper p { 
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 2em;
-    max-width: 40em; /* Adjust the value as needed */
-    margin: 0 auto; /* Center the text horizontally */
-    color: silver;
-    font-family: sans-serif;
+.what-is-bjj-content-wrapper p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2em;
+  max-width: 40em;
+  margin: 0 auto;
+  color: silver;
+  font-family: sans-serif;
 }
 
-.what-is-bjj-content-wrapper ul { 
-    font-size: 1.5rem;
-    color: silver;
-    font-family: sans-serif;
+.what-is-bjj-content-wrapper ul {
+  font-size: 1.5rem;
+  color: silver;
+  font-family: sans-serif;
 }
 
-.bjj-benefits-list li { 
+.bjj-benefits-list li {
+  opacity: 0;
+}
+
+.bjj-benefits-list.focused li {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.bjj-benefits-list li:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.bjj-benefits-list li:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.bjj-benefits-list li:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.bjj-benefits-list li:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.bjj-benefits-list li:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.bjj-benefits-list li:nth-child(6) {
+  animation-delay: 3s;
+}
+
+.bjj-benefits-list li:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-.bjj-benefits-list.focused li { 
-    animation: fadeIn 1s ease-in-out forwards;
+@media (max-width: 1030px) {
+  .what-is-bjj-content-wrapper p,
+  .what-is-bjj-content-wrapper ul {
+    font-size: 1rem;
+  }
 }
 
-.bjj-benefits-list li:nth-child(1) { 
-    animation-delay: 0.5s;
+@media (max-width: 660px) {
+  .what-is-bjj-content-wrapper img {
+    width: 28em;
+  }
 }
 
-.bjj-benefits-list li:nth-child(2) { 
-    animation-delay: 1s;
+@media (max-width: 490px) {
+  .what-is-bjj-content-wrapper img {
+    width: 20em;
+  }
 }
 
-.bjj-benefits-list li:nth-child(3) { 
-    animation-delay: 1.5s;
-}
-
-.bjj-benefits-list li:nth-child(4) { 
-    animation-delay: 2s;
-}
-
-.bjj-benefits-list li:nth-child(5) { 
-    animation-delay: 2.5s;
-}
-
-.bjj-benefits-list li:nth-child(6) { 
-    animation-delay: 3s;
-}
-
-.bjj-benefits-list li:nth-child(7) { 
-    animation-delay: 3.5s;
-}
-
-@keyframes fadeIn { 
-    0% { 
-        opacity: 0;
-    }
-
-    100% { 
-        opacity: 1;
-    }
-}
-
-
-
-
-
-@media (max-width: 1030px) { 
-    .what-is-bjj-content-wrapper p,
-    .what-is-bjj-content-wrapper ul { 
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 660px) { 
-    .what-is-bjj-content-wrapper img { 
-        width: 28em;
-    }
-
-    // .what-is-bjj-content-wrapper p,
-    // .what-is-bjj-content-wrapper ul { 
-    //     font-size: 1.2rem;
-    // }
-}
-
-@media (max-width: 490px) { 
-    .what-is-bjj-content-wrapper img { 
-        width: 20em;
-    }
-
-    // .what-is-bjj-content-wrapper p,
-    // .what-is-bjj-content-wrapper ul { 
-    //     font-size: 1.2rem;
-    // }
-} 
-
-@media (max-width: 365px) { 
-    .what-is-bjj-content-wrapper img { 
-        width: 18em;
-    }
+@media (max-width: 365px) {
+  .what-is-bjj-content-wrapper img {
+    width: 18em;
+  }
 }

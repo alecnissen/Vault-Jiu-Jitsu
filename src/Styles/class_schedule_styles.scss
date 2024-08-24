@@ -1,24 +1,20 @@
-.class-schedule-content-wrapper { 
-    display: flex;
-    // flex-direction: column;
-    justify-content: center;
-    // align-items: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    gap: 1em;
-    padding: 1em;
-    // flex-wrap: wrap;
-    // font-size: 3vw;
+.class-schedule-content-wrapper {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  gap: 1em;
+  padding: 1em;
 }
 
-.class-schedule-h1 { 
-    padding: 0.5em;
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 3rem;
+.class-schedule-h1 {
+  padding: 0.5em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 3rem;
 }
 
 .monday-container,
@@ -27,94 +23,65 @@
 .thursday-container,
 .friday-container,
 .saturday-container,
-.sunday-container { 
+.sunday-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.3em;
+  font-size: 1.8vw;
+}
+
+.monday-container h3,
+.tuesday-container h3,
+.wednesday-container h3,
+.thursday-container h3,
+.friday-container h3,
+.saturday-container h3,
+.sunday-container h3 {
+  background-color: red;
+  padding: 0.2em;
+  border-radius: 5%;
+}
+
+.class-title-and-time-container {
+  background-color: white;
+  color: black;
+  padding: 0.2em;
+  border-radius: 5%;
+}
+
+@media (max-width: 765px) {
+  .class-schedule-content-wrapper {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    // font-size: 1.3rem;
-    gap: 0.3em;
-    font-size: 1.8vw;
-    // font-size: 1.4rem;
-}
+    justify-content: center;
+    align-items: center;
+  }
 
-// .monday-container div,
-// .tuesday-container div,
-// .wednesday-container div 
-// .thursday-container div,
-// .friday-container div,
-// .saturday-container div,
-// .sunday-container div { 
-//     border-radius: 8%;
-// }
-
-.monday-container h3,
-.tuesday-container h3,
-.wednesday-container h3,
-.thursday-container h3,
-.friday-container h3,
-.saturday-container h3, 
-.sunday-container h3 { 
+  .monday-container h3,
+  .tuesday-container h3,
+  .wednesday-container h3,
+  .thursday-container h3,
+  .friday-container h3,
+  .saturday-container h3,
+  .sunday-container h3 {
     background-color: red;
     padding: 0.2em;
-    border-radius: 5%;
-}
-
-.class-title-and-time-container { 
-    background-color: white;
-    color: black;
-    padding: .2em;
-    border-radius: 5%;
-}
-
-// @media (max-width: 950px) { 
-//     .monday-container,
-// .tuesday-container,
-// .wednesday-container,
-// .thursday-container,
-// .friday-container,
-// .saturday-container,
-// .sunday-container { 
-  
-//     font-size: 3vw;
-// }
-// }
-
-@media (max-width: 765px) { 
-    .class-schedule-content-wrapper { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-.monday-container h3,
-.tuesday-container h3,
-.wednesday-container h3,
-.thursday-container h3,
-.friday-container h3,
-.saturday-container h3, 
-.sunday-container h3 { 
-    background-color: red;
-    padding: 0.2em;
-    // border-radius: 8%;
     width: 10em;
     font-size: 2rem;
-}
+  }
 
-.monday-container,
-.tuesday-container,
-.wednesday-container,
-.thursday-container,
-.friday-container,
-.saturday-container,
-.sunday-container { 
+  .monday-container,
+  .tuesday-container,
+  .wednesday-container,
+  .thursday-container,
+  .friday-container,
+  .saturday-container,
+  .sunday-container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    // font-size: 1.3rem;
     gap: 0.3em;
-    font-size: 1.6rem
-}
-
-
+    font-size: 1.6rem;
+  }
 }

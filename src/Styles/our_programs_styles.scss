@@ -1,159 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-.our-programs-content-wrapper { 
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    opacity: 0;
+.our-programs-content-wrapper {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0;
 }
 
-.our-programs-header-container h1 { 
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: bold;
+.our-programs-header-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.programs-card-container { 
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 1em;
+.programs-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .card-group-1,
-.card-group-2 { 
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 1em;
-    font-family: sans-serif;
+.card-group-2 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 1em;
+  font-family: sans-serif;
 }
 
-.card-container { 
-    text-align: center;
-    width: 22em;
-    padding: 1em;
-    font-size: 1.2rem;
-    background-color: ghostwhite;
-    border-radius: 5%;
-    // box-shadow: 7px 5px 5px red;
+.card-container {
+  text-align: center;
+  width: 22em;
+  padding: 1em;
+  font-size: 1.2rem;
+  background-color: ghostwhite;
+  border-radius: 5%;
+  // box-shadow: 7px 5px 5px red;
 }
 
-.card-4-img { 
-    width: 19em;
+.card-4-img {
+  width: 19em;
 }
 
-.programs-card-4-img-container { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.programs-card-4-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.program-photo { 
-    border-radius: 5%;
+.program-photo {
+  border-radius: 5%;
 }
 
-.programs-learn-more-btn { 
+.programs-learn-more-btn {
+  font-size: 1rem;
+  background-color: red;
+  border: none;
+}
+
+.programs-learn-more-btn:hover {
+  background-color: red;
+  border: none;
+}
+
+.program-card-header-text {
+  font-size: 1.5rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-img1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-programs-content-wrapper.focused {
+  animation: slideIn 1s ease;
+  opacity: 1;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-150em);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1030px) {
+  .card-container {
     font-size: 1rem;
-    background-color: red;
-    border: none;
+  }
 }
 
-.programs-learn-more-btn:hover { 
-    background-color: red;
-    border: none;
-}
+@media (max-width: 445px) {
+  .card-container {
+    width: 17em;
+  }
 
-.program-card-header-text { 
-    font-size: 1.5rem;
-}
-
-.card-body { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-// fixed height styles for program cards
-
-// .card-body { 
-//     height: 15rem;
-//     overflow: auto;
-// }
-
-
-// .card-container { 
-//     width: 18em;
-//     text-align: center;
-// }
-
-// .card-container-2 { 
-//     width: 18em;
-//     text-align: center;
-// }
-
-// .card-container-3 { 
-//     width: 18em;
-//     text-align: center;
-// }
-
-.card-img1-container { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-// @media (max-width: 1320px) { 
-//     .programs-card-container { 
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         flex-wrap: wrap;
-//     }
-
-  
-// }
-
-
-.our-programs-content-wrapper.focused { 
-    animation: slideIn 1s ease;
-    opacity: 1;
-}
-
-
-@keyframes slideIn { 
-    0% { 
-        transform: translateX(-150em);
-    } 
-
-    100% { 
-        transform: translateX(0);
-    }
-
-}
-
-// @media (max-width: 445px) { 
-//     .recovery-card-container { 
-//       width: 20em;
-//       font-size: 1rem;
-//     }
-//   }
-
-@media (max-width: 1030px) { 
-    .card-container { 
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 445px) { 
-    .card-container { 
-        width: 17em;
-        // font-size: 1.2rem;
-    }
-
-    .card-4-img { 
-        width: 15em;
-    }
+  .card-4-img {
+    width: 15em;
+  }
 }

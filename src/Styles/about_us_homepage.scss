@@ -1,54 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-
-
-.about-us-content-wrapper { 
-    // font-family: "Bebas Neue", sans-serif;
-    // font-weight: 400;
-    // font-style: normal;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-    padding: 3em;
+.about-us-content-wrapper {
+  padding: 3em;
 }
 
-.about-us-content-wrapper h1 { 
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    // font-weight: 400;
-    font-weight: bold;
-    font-style: normal;
-    // text-decoration: underline;
-    font-size: 2.5rem;
+.about-us-content-wrapper h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.5rem;
 }
 
-.about-us-content-wrapper p { 
-    text-align: center;
-    // padding: 1em;
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    max-width: 40em; /* Adjust the value as needed */
-    margin: 0 auto; /* Center the text horizontally */
-    color: silver;
+.about-us-content-wrapper p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  max-width: 40em;
+  margin: 0 auto;
+  color: silver;
 }
 
-@media (max-width: 1030px) { 
-    .about-us-content-wrapper p { 
-        font-size: 1rem;
-    }
+@media (max-width: 1030px) {
+  .about-us-content-wrapper p {
+    font-size: 1rem;
+  }
 }
 
-
-@media (max-width: 660px) { 
-    .about-us-content-wrapper p { 
-        font-size: 1rem;
-    }
+@media (max-width: 660px) {
+  .about-us-content-wrapper p {
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 490px) { 
-    .about-us-content-wrapper p { 
-        font-size: 1rem;
-    }
+@media (max-width: 490px) {
+  .about-us-content-wrapper p {
+    font-size: 1rem;
+  }
 }
-

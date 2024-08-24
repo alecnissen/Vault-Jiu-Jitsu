@@ -1,123 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-.header-content-wrapper { 
+.header-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  font-family: "Bebas Neue", sans-serif;
+  border-bottom: 1px solid silver;
+}
+
+.header-btn-container2 {
+  display: flex;
+  align-items: flex-end;
+  gap: 2em;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+}
+
+.header-link:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5%;
+}
+
+.header-btn-container2 button {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  border: none;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.header-vault-bjj-logo2 {
+  width: 12em;
+  position: relative;
+  bottom: 2em;
+}
+
+.header-insta-fb-links-container2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 0.5em;
+}
+
+.header-insta-fb-links-container2 img {
+  width: 3em;
+}
+
+@media (max-width: 1070px) {
+  .header-content-wrapper {
     display: flex;
-    justify-content: space-between;
-    background-color: black;
-    font-family: "Bebas Neue", sans-serif;
-    border-bottom: 1px solid silver;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-btn-container2 button {
+    font-size: 1.8rem;
+  }
 }
 
-.header-btn-container2 { 
+@media (max-width: 768px) {
+  .header-btn-container2 {
     display: flex;
-    align-items: flex-end;
-    gap: 2em;
+    gap: 0.7em;
+  }
+
+  .header-btn-container2 button {
+    // font-size: 3.5vw;
+    font-size: 1.5rem;
+  }
+
+  .header-insta-fb-links-container2 img {
+    width: 2.3em;
+  }
 }
 
-.header-link { 
-    text-decoration: none;
-    color: white;
-}
-
-.header-link:hover { 
-    color: black;
-    background-color: white;
-    border-radius: 5%;
-}
-
-.header-btn-container2 button { 
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    border: none;
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-// .header-btn-container2 button:hover { 
-//     background-color: white;
-//     color: black;
-//     border-radius: 5%;
-// }
-
-.header-vault-bjj-logo2 { 
-    width: 12em;
-    position: relative;
-    bottom: 2em;
-}
-
-.header-insta-fb-links-container2 { 
+@media (max-width: 515px) {
+  .header-btn-container2 {
     display: flex;
-    align-items: flex-start;
-    gap: 1em;
-    padding: 0.5em;
+    gap: 0.5em;
+  }
+  .header-btn-container2 button {
+    font-size: 1.2rem;
+  }
 }
 
-.header-insta-fb-links-container2 img { 
-    width: 3em;
-}
+@media (max-width: 400px) {
+  .header-btn-container2 button {
+    font-size: 0.95rem;
+  }
 
-// #fb-logo-header-id { 
-//     width: 2.8em;
-// }
-
-@media (max-width: 1070px) { 
-    .header-content-wrapper { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header-btn-container2 button { 
-        font-size: 1.8rem;
-    }
-}
-
-@media (max-width: 768px) { 
-    .header-btn-container2 { 
-        display: flex;
-        gap: .7em;
-    }
-
-    .header-btn-container2 button { 
-        // font-size: 3.5vw;
-        font-size: 1.5rem;
-    }
-
-    .header-insta-fb-links-container2 img { 
-        width: 2.3em;
-    } 
-}
-
-
-@media (max-width: 515px) { 
-
-    .header-btn-container2 { 
-        display: flex;
-        gap: .5em;
-        // flex-direction: column;
-    }
-    .header-btn-container2 button { 
-        // font-size: 3.5vw;
-        font-size: 1.2rem;
-        // border-right: 1px solid silver;
-        // padding: .2em;
-        // text-align: center;
-    }
-}
-
-
-@media (max-width: 400px) { 
-    .header-btn-container2 button { 
-        font-size: 0.95rem;
-    }
-
-    .header-btn-container2 { 
-        display: flex;
-        gap: .45em;
-    }
+  .header-btn-container2 {
+    display: flex;
+    gap: 0.45em;
+  }
 }

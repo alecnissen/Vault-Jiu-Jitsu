@@ -1,175 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-
-.footer-content-wrapper { 
-    display: flex;
-    // justify-content: space-between;
-    justify-content: space-around;
-    align-items: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    border-top: 2px solid silver;
-    padding: 2em;
+.footer-content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-top: 2px solid silver;
+  padding: 2em;
 }
 
-.title-address-phone-container { 
-    display: flex;
-    flex-direction: column;
-    // padding: 1em;
+.title-address-phone-container {
+  display: flex;
+  flex-direction: column;
 }
 
-// .title-address-phone-container > * { 
-//     font-size: 3rem;
-// }
-
-.title-address-phone-container h1 { 
-    font-size: 3rem;
+.title-address-phone-container h1 {
+  font-size: 3rem;
 }
 
-.address-subscribe-container { 
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    gap: 3em;
+.address-subscribe-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 3em;
 }
 
-.footer-social-links-container { 
-    display: flex;
-    gap: 0.3em;
+.footer-social-links-container {
+  display: flex;
+  gap: 0.3em;
 }
 
 .footer-email-styles,
-.footer-phone-styles { 
-    color: silver;
-    font-family: sans-serif;
+.footer-phone-styles {
+  color: silver;
+  font-family: sans-serif;
 }
 
-.footer-social-links-container img { 
-    width: 3em;
+.footer-social-links-container img {
+  width: 3em;
 }
 
-.footer-address-styles { 
-    font-family: sans-serif;
-    color: silver;
+.footer-address-styles {
+  font-family: sans-serif;
+  color: silver;
 }
 
-.footer-label-input-pair-email h5 { 
+.footer-label-input-pair-email h5 {
+  font-size: 1.5rem;
+  color: silver;
+  font-family: sans-serif;
+}
+
+.footer-label-input-pair-email {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  color: silver;
+  font-family: sans-serif;
+}
+
+
+
+
+
+.footer-label-input-pair-email label {
+  font-size: 1.2rem;
+  padding-right: 0.3rem;
+}
+
+.footer-label-input-pair-email input {
+  width: 12em;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  border: none;
+}
+
+.footer-label-input-pair-email button {
+  font-size: 1.2rem;
+  width: 5em;
+  background-color: red;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 0.5em;
+  border: none;
+  margin-left: 0.3rem;
+}
+
+.footer-vault-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -15em;
+}
+
+.footer-vault-logo {
+  width: 40em;
+}
+
+@media (max-width: 1030px) {
+  .footer-email-styles,
+  .footer-phone-styles {
+    font-size: 1.3rem;
+  }
+
+  .footer-label-input-pair-email h5,
+  .footer-label-input-pair-email label {
     font-size: 1.5rem;
     color: silver;
     font-family: sans-serif;
+  }
 }
 
-.footer-label-input-pair-email { 
-    display: flex;
-    flex-direction: column;
-    gap: .5em;
-    color: silver;
-    font-family: sans-serif;
+@media (max-width: 975px) {
+  .footer-vault-logo {
+    width: 28em;
+  }
 }
 
-.footer-label-input-pair-email label { 
-    font-size: 1.5rem;
-}
-
-.footer-label-input-pair-email input { 
-    width: 12em;
-    font-size: 1.5em;
-    border-radius: 0.5em;
-    border: none;
-}
-
-.footer-label-input-pair-email button { 
-    font-size: 1rem;
-    width: 5em;
-    background-color: red;
-    color: white;
-    font-family: sans-serif;
-    border-radius: 0.5em;
-    border: none;
-}
-
-.footer-vault-logo-container { 
+@media (max-width: 760px) {
+  .footer-content-wrapper {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    margin-top: -15em;
-    // flex-direction: column;
-    // justify-content: flex-end;
-    // align-items: flex-end;
-}
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
 
-// .footer-vault-logo-container {
-//     display: flex;
-//     justify-content: center; /* Center the logo horizontally */
-//     align-items: flex-start; /* Align the logo to the top of its container */
-//     margin-top: -20px; /* Adjust the margin to move the logo up */
-// }
+  .footer-vault-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7em;
+  }
 
-.footer-vault-logo { 
-    width: 40em;
-} 
+  .footer-label-input-pair-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-@media (max-width: 1030px) { 
-    .footer-email-styles,
-.footer-phone-styles { 
-    font-size: 1.3rem;
-} 
+  .footer-social-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.footer-label-input-pair-email h5,
-.footer-label-input-pair-email label { 
-    font-size: 1.5rem;
-    color: silver;
-    font-family: sans-serif;
-}
-
-
-
-}
-
-
-@media (max-width: 975px) { 
-    .footer-vault-logo { 
-        width: 28em;
-    } 
-}
-
-// @media (max-width: 490px) { 
-//     .title-address-phone-container > * { 
-//         font-size: 2.3rem;
-//     }
-// }
-
-@media (max-width: 760px) { 
-    .footer-content-wrapper { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-    } 
-
-    .footer-vault-logo-container { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: -7em;
-    } 
-
-    .footer-label-input-pair-email { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-social-links-container { 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-vault-logo { 
-        width: 22em;
-    }  
-
+  .footer-vault-logo {
+    width: 22em;
+  }
 }

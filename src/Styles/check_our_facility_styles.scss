@@ -1,64 +1,57 @@
-.check-our-facility-content-wrapper h1 { 
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.check-our-facility-content-wrapper h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-.img-container { 
-    display: flex;
-    justify-content: center;
+.img-container {
+  display: flex;
+  justify-content: center;
 }
 
-.carousel-img { 
-    width: 40em;
-    border-radius: 5%;
+.carousel-img {
+  width: 40em;
+  border-radius: 5%;
 }
-
-// #vault-darker-img { 
-//     width: 10em;
-// }
 
 .carousel-control-next-icon,
-.carousel-control-prev-icon { 
-    background-color: black;
-    color: white;
+.carousel-control-prev-icon {
+  background-color: black;
+  color: white;
 }
 
-.list-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    // list-style-type: none;
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .list-container li {
-    text-align: left; /* Align text to the left */
-    margin-left: 1em; /* Adjust margin for better spacing */
+  text-align: left;
+  margin-left: 1em;
 }
 
-@media (max-width: 660px) { 
-    .carousel-img { 
-        width: 30em;
-    }
+@media (max-width: 660px) {
+  .carousel-img {
+    width: 30em;
+  }
 }
 
-@media (max-width: 515px) { 
-    .carousel-img { 
-        width: 21.5em;
-    }
+@media (max-width: 515px) {
+  .carousel-img {
+    width: 21.5em;
+  }
 }
 
-@media (max-width: 360px) { 
-    .carousel-img { 
-        width: 19.5em;
-    }
+@media (max-width: 360px) {
+  .carousel-img {
+    width: 19.5em;
+  }
 }
