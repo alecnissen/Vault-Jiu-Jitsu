@@ -12,26 +12,19 @@
   padding: 0.5em;
 }
 
- .recovery-room-text {
+.recovery-room-text {
   text-align: center;
   font-size: 1.5rem;
   padding: 0.5em;
   font-family: sans-serif;
-  max-width: 40em; /* Adjust the value as needed */
-  margin: 0 auto; /* Center the text horizontally */
+  max-width: 40em;
+  margin: 0 auto;
   color: silver;
 }
-
-// .recovery-room-content-wrapper p {
-//   text-align: center;
-//   font-size: 1.5rem;
-//   padding: 0.5em;
-// }
 
 .recovery-cards-container {
   display: flex;
   justify-content: center;
-  // align-items: center;
   align-items: stretch;
   gap: 1em;
   flex-wrap: wrap;
@@ -41,7 +34,6 @@
 .recovery-card-group-2 {
   display: flex;
   justify-content: center;
-  // align-items: center;
   align-items: stretch;
   gap: 1em;
   flex-wrap: wrap;
@@ -53,80 +45,70 @@
   justify-content: center;
   text-align: center;
   width: 22em;
-  // padding: 1em;
-  // padding: 0.5em;
   font-size: 1.2rem;
   background-color: ghostwhite;
   font-family: sans-serif;
   border-radius: 5%;
 }
 
-.recovery-card-header { 
+.recovery-card-header {
   font-size: 1.5rem;
 }
 
-.card-img { 
+.card-img {
   padding: 1em;
   border-radius: 10%;
 }
 
-.recovery-learn-more-btn { 
+.recovery-learn-more-btn {
   font-size: 1rem;
   background-color: red;
   border: none;
 }
 
-.recovery-learn-more-btn:hover { 
+.recovery-learn-more-btn:hover {
   background-color: red;
   border: none;
 }
 
-.recovery-card-body { 
+.recovery-card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
 
-.recovery-room-content-wrapper.focused { 
+.recovery-room-content-wrapper.focused {
   animation: slideIn 1s ease;
   opacity: 1;
 }
 
-#normatech-img { 
+#normatech-img {
   width: 13em;
 }
 
-
-
-
-@keyframes slideIn { 
-  0% { 
-      transform: translateX(-150em);
-  } 
-
-  100% { 
-      transform: translateX(0);
+@keyframes slideIn {
+  0% {
+    transform: translateX(-150em);
   }
 
+  100% {
+    transform: translateX(0);
+  }
 }
 
-
-
-
-@media (max-width: 1030px) { 
-  .recovery-room-text { 
+@media (max-width: 1030px) {
+  .recovery-room-text {
     font-size: 1rem;
   }
 
-  .recovery-card-container { 
+  .recovery-card-container {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 445px) { 
-  .recovery-card-container { 
+@media (max-width: 445px) {
+  .recovery-card-container {
     width: 17em;
-    // font-size: 1rem;
   }
 }
